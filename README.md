@@ -1,6 +1,6 @@
 # AppTestStudio-Projects
 
-Minimal exports don't include the reference images, AppTestStudio will re-link the images when the application is run.  There's still a bug I'm chasing where the linker is agressive.
+Minimal exports don't include the reference images, AppTestStudio will re-link the images when the application is run.  There's still a bug I'm chasing where the linker is aggressive.  After the re-linking is done you can save with the reference images reapplied.
 
 Download the Zip file and Import with [AppTestStudio](https://github.com/DanielHarrod/AppTestStudio) which will have a wizard help pick out a project folder.
 
