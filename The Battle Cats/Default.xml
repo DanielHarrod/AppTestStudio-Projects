@@ -522,6 +522,23 @@
                   </Action>
                 </Events>
               </Event>
+              <Event Name="Thick Dark X" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="770" ResolutionHeight="1060" />
+                <ObjectSearch ObjectName="Dark Thick X" Channel="Red" Threshold="70">
+                  <Rectangle X="760" Y="75" Height="0" Width="0" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Thick Dark X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="737" Y="50" Height="11" Width="15" />
+                    <Picture ResolutionWidth="770" ResolutionHeight="1060" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
             </Events>
           </Event>
           <Event Name="1028x802" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
@@ -581,6 +598,23 @@
                   </Action>
                 </Events>
               </Event>
+              <Event Name="Dark Thick X" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1028" ResolutionHeight="802" />
+                <ObjectSearch ObjectName="Dark Thick X" Channel="Red" Threshold="70">
+                  <Rectangle X="968" Y="44" Height="40" Width="44" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Dark Thick X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="978" Y="65" Height="14" Width="17" />
+                    <Picture ResolutionWidth="1028" ResolutionHeight="802" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
             </Events>
           </Event>
         </Events>
@@ -590,6 +624,7 @@
       <Object Name="White X" FileName="2020-04-13-21-11-45-2020-04-13-21-11-45-.bmp" />
       <Object Name="Dark X" FileName="2020-04-13-21-13-51-2020-04-13-21-13-51-.bmp" />
       <Object Name="White Thick X" FileName="2020-04-13-21-19-18-2020-04-13-21-19-18-.bmp" />
+      <Object Name="Dark Thick X" FileName="2020-04-13-23-19-34-2020-04-13-23-19-34-.bmp" />
     </Objects>
   </App>
 </AppTestStudio>
