@@ -511,7 +511,7 @@
                 <ClickList Points="0" />
                 <Picture FileName="" ResolutionWidth="770" ResolutionHeight="1060" />
                 <ObjectSearch ObjectName="White Thick X" Channel="Red" Threshold="70">
-                  <Rectangle X="715" Y="42" Height="43" Width="44" />
+                  <Rectangle X="700" Y="43" Height="53" Width="60" />
                 </ObjectSearch>
                 <Events>
                   <Action Name="Click Thick White X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
@@ -528,7 +528,7 @@
                 <ClickList Points="0" />
                 <Picture FileName="" ResolutionWidth="770" ResolutionHeight="1060" />
                 <ObjectSearch ObjectName="Dark Thick X" Channel="Red" Threshold="70">
-                  <Rectangle X="760" Y="75" Height="0" Width="0" />
+                  <Rectangle X="680" Y="45" Height="56" Width="83" />
                 </ObjectSearch>
                 <Events>
                   <Action Name="Click Thick Dark X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
@@ -587,7 +587,7 @@
                 <ClickList Points="0" />
                 <Picture FileName="" ResolutionWidth="1028" ResolutionHeight="802" />
                 <ObjectSearch ObjectName="White X" Channel="Red" Threshold="70">
-                  <Rectangle X="973" Y="35" Height="44" Width="45" />
+                  <Rectangle X="946" Y="36" Height="64" Width="74" />
                 </ObjectSearch>
                 <Events>
                   <Action Name="Click Find X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
@@ -604,7 +604,7 @@
                 <ClickList Points="0" />
                 <Picture FileName="" ResolutionWidth="1028" ResolutionHeight="802" />
                 <ObjectSearch ObjectName="Dark Thick X" Channel="Red" Threshold="70">
-                  <Rectangle X="968" Y="44" Height="40" Width="44" />
+                  <Rectangle X="935" Y="44" Height="61" Width="84" />
                 </ObjectSearch>
                 <Events>
                   <Action Name="Click Dark Thick X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
