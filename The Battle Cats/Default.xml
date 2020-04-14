@@ -367,14 +367,14 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1028" ResolutionHeight="802" />
         <Events>
-          <Action Name="Click Cat Food Shop Wait 15s" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" IsRelativeStart="False" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
-            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+          <Action Name="Click Cat Food Shop Wait 30s" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" IsRelativeStart="False" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+            <Delay MilliSeconds="0" Seconds="2" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="498" Y="190" Height="25" Width="177" />
             <Picture ResolutionWidth="1028" ResolutionHeight="802" FileName="" />
           </Action>
           <Event Name="Wait 30" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
-            <Delay MilliSeconds="0" Seconds="15" Minutes="0" Hours="0" />
+            <Delay MilliSeconds="0" Seconds="30" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <ClickList Points="0" />
             <Picture FileName="" ResolutionWidth="1028" ResolutionHeight="802" />
