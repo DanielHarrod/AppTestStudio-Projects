@@ -1,5 +1,8 @@
 # AppTestStudio-Projects
 
+## Project that can be opend with App Test studio
+https://github.com/DanielHarrod/AppTestStudio
+
 Minimal exports don't include the reference images, AppTestStudio will re-link the images when the application is run.  
 
 ### Instructions
