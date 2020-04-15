@@ -1,9 +1,9 @@
 # AppTestStudio-Projects
 
-## Project that can be opend with App Test studio
+This contains AppTestStudio project files that can be opened with AppTestStudio.
 https://github.com/DanielHarrod/AppTestStudio
 
-Minimal exports don't include the reference images, AppTestStudio will re-link the images when the application is run.  
+These are minimal exports so they don't include the reference images, AppTestStudio will re-link the images when the application is run.  
 
 ### Instructions
 Download the files and picture folders, open the default.xml in App Test Studio.
