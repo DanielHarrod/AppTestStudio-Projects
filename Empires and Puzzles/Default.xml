@@ -2,6 +2,30 @@
 <AppTestStudio>
   <App Name="Empires &amp; Puzzles- Epic Match 3" TargetGameBuild="" PackageName="com.smallgiantgames.empires" LaunchInstance="2" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="0">
     <Events>
+      <Event Name="Out of World Energy - Exit" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Stop" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="10">
+          <Click X="243" Y="380" Color="#FF1C3F5F" />
+          <Click X="268" Y="383" Color="#FF1B3F62" />
+          <Click X="297" Y="388" Color="#FF556779" />
+          <Click X="321" Y="391" Color="#FFC8CCCF" />
+          <Click X="344" Y="390" Color="#FFFFFFFF" />
+          <Click X="371" Y="390" Color="#FF184D6A" />
+          <Click X="403" Y="388" Color="#FF355565" />
+          <Click X="452" Y="386" Color="#FFFFFFFF" />
+          <Click X="469" Y="386" Color="#FFFFFFFF" />
+          <Click X="520" Y="386" Color="#FF889199" />
+          <Click X="529" Y="386" Color="#FF1D4264" />
+          <Click X="587" Y="385" Color="#FFBB1616" />
+          <Click X="318" Y="690" Color="#FF277EC5" />
+          <Click X="344" Y="687" Color="#FFF4F5F6" />
+          <Click X="386" Y="684" Color="#FF154466" />
+          <Click X="423" Y="683" Color="#FF224D6A" />
+          <Click X="444" Y="683" Color="#FF1D5A84" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="770" ResolutionHeight="1060" />
+      </Event>
       <Event Name="Popup Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
         <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
@@ -14,7 +38,7 @@
             <ClickList Points="0" />
             <Picture FileName="" ResolutionWidth="770" ResolutionHeight="1060" />
             <ObjectSearch ObjectName="redx" Channel="Red" Threshold="70">
-              <Rectangle X="339" Y="81" Height="347" Width="419" />
+              <Rectangle X="342" Y="79" Height="367" Width="422" />
             </ObjectSearch>
             <Events>
               <Action Name="Clicky on the Red X" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" IsRelativeStart="True" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
@@ -49,7 +73,7 @@
           <Event Name="Enemy Raid" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
             <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
-            <ClickList Points="0">
+            <ClickList Points="5">
               <Click X="269" Y="121" Color="#FF054574" />
               <Click X="311" Y="126" Color="#FFFFFFFF" />
               <Click X="351" Y="126" Color="#FF1E3B53" />
@@ -99,7 +123,7 @@
       <Event Name="Home Castle Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
         <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
-        <ClickList Points="0">
+        <ClickList Points="10">
           <Click X="32" Y="965" Color="#FFEFFDE3" />
           <Click X="64" Y="980" Color="#FF7BFDFD" />
           <Click X="59" Y="965" Color="#FF7CA12A" />
@@ -132,7 +156,7 @@
       <Event Name="World Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
         <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
-        <ClickList Points="0">
+        <ClickList Points="10">
           <Click X="33" Y="993" Color="#FF52616F" />
           <Click X="57" Y="1000" Color="#FFDBD7CF" />
           <Click X="79" Y="999" Color="#FF5A5256" />
@@ -287,7 +311,7 @@
       <Event Name="Cleared!" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
         <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
-        <ClickList Points="0">
+        <ClickList Points="10">
           <Click X="261" Y="154" Color="#FF18518D" />
           <Click X="293" Y="150" Color="#FF1A659E" />
           <Click X="333" Y="148" Color="#FFFFFFFF" />
