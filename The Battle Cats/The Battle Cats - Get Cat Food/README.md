@@ -1,5 +1,6 @@
 ### This script will collect cat food.
-(in my testing the application crashed every so often so adding a restart Event is advisable)
+
+Some of the Ads caused my client to eventually crash, it may be advisable to also include a restart.
 
 Copy files to your app test studio folder, and load the project.
 
