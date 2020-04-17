@@ -1,4 +1,4 @@
-## The Empires and puzzles 8-7 Grind
+## The empires and puzzles 8-7 Grind
 
 This script is intended to be run at regular intervals using the scheduler such as every 4-10 hours.  It will automatically close the emmulator and stop the script when the out of energy message is displayed.
 
