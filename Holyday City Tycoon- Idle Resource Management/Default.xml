@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding = "utf-8"?>
 <AppTestStudio>
-  <App Name="Holyday City Tycoon- Idle Resource Management" TargetGameBuild="" PackageName="com.HolydayStudios.HolydayCityTycoon1" LaunchInstance="5" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000">
+  <App Name="Holyday City Tycoon- Idle Resource Management" TargetGameBuild="" PackageName="com.HolydayStudios.HolydayCityTycoon1" LaunchInstance="1" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192">
     <Events>
       <Event Name="Left Menu Events" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
@@ -17,7 +17,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click City Facilities Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click City Facilities Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="22" Y="377" Height="52" Width="53" />
@@ -36,7 +36,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="141" Y="393" Height="37" Width="41" />
@@ -53,10 +53,27 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Office Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Office Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="141" Y="608" Height="33" Width="44" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Upgrades Ready" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="21" Y="296" Color="#FFFFA509" />
+              <Click X="72" Y="325" Color="#FFF79400" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Upgrades Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="30" Y="288" Height="38" Width="45" />
                 <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
               </Action>
             </Events>
@@ -84,7 +101,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Buy 1x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Buy 1x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="902" Y="518" Height="51" Width="56" />
@@ -106,7 +123,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Buy 10x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Buy 10x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="910" Y="522" Height="43" Width="52" />
@@ -129,12 +146,98 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Buy 100x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Buy 100x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="902" Y="521" Height="62" Width="64" />
                 <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
               </Action>
+            </Events>
+          </Event>
+          <Event Name="Buy With Special Offer Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Event Name="Buy 1x  V2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0">
+                  <Click X="917" Y="549" Color="#FFFFFFFF" />
+                  <Click X="931" Y="571" Color="#FFAF6D0A" />
+                  <Click X="946" Y="598" Color="#FFB46207" />
+                  <Click X="962" Y="552" Color="#FFA46A07" />
+                  <Click X="949" Y="564" Color="#FFFFFFFF" />
+                  <Click X="923" Y="582" Color="#FF9F6309" />
+                </ClickList>
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <Events>
+                  <Action Name="Click Buy 1x  V2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="905" Y="544" Height="51" Width="63" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Buy 10x v2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0">
+                  <Click X="907" Y="546" Color="#FFFDBD31" />
+                  <Click X="925" Y="554" Color="#FFFFFFFF" />
+                  <Click X="934" Y="562" Color="#FFFFFFFF" />
+                  <Click X="946" Y="569" Color="#FFAF6D0A" />
+                  <Click X="958" Y="579" Color="#FFFFFFFF" />
+                  <Click X="960" Y="546" Color="#FFDB5F05" />
+                  <Click X="941" Y="573" Color="#FF412904" />
+                  <Click X="928" Y="584" Color="#FFAB6A0A" />
+                  <Click X="913" Y="592" Color="#FFFFFFFF" />
+                </ClickList>
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <Events>
+                  <Action Name="Click Buy 10x v2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="905" Y="542" Height="60" Width="50" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Buy 100x v2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0">
+                  <Click X="899" Y="541" Color="#FFFA8F00" />
+                  <Click X="919" Y="573" Color="#FFAE6C09" />
+                  <Click X="929" Y="588" Color="#FFFFFFFF" />
+                  <Click X="946" Y="598" Color="#FFB46207" />
+                  <Click X="960" Y="534" Color="#FFFEAD08" />
+                  <Click X="937" Y="558" Color="#FF422904" />
+                  <Click X="927" Y="570" Color="#FFAF6D0A" />
+                  <Click X="915" Y="581" Color="#FFFFFFFF" />
+                  <Click X="908" Y="585" Color="#FFFFFFFF" />
+                  <Click X="934" Y="535" Color="#FFF8B62A" />
+                  <Click X="916" Y="581" Color="#FFFFFFFF" />
+                  <Click X="901" Y="595" Color="#FF704501" />
+                  <Click X="904" Y="590" Color="#FFF1F1F1" />
+                  <Click X="908" Y="589" Color="#FFFFFFFF" />
+                  <Click X="913" Y="588" Color="#FFFFFFFF" />
+                  <Click X="930" Y="588" Color="#FFFFFFFF" />
+                  <Click X="930" Y="588" Color="#FFFFFFFF" />
+                  <Click X="910" Y="589" Color="#FFFFFFFF" />
+                </ClickList>
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <Events>
+                  <Action Name="Click Buy 100x v2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="910" Y="540" Height="45" Width="42" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
             </Events>
           </Event>
         </Events>
@@ -162,7 +265,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Select Language" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Select Language" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="241" Y="241" Height="20" Width="102" />
@@ -190,7 +293,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Game Language English" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Game Language English" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="790" Y="436" Height="26" Width="94" />
@@ -214,7 +317,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Agreement Unchecked" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Agreement Unchecked" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="407" Y="553" Height="23" Width="28" />
@@ -239,7 +342,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Agreement Checked" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Agreement Checked" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="445" Y="625" Height="23" Width="152" />
@@ -263,10 +366,34 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Play Muted" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Play Muted" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="408" Y="506" Height="29" Width="186" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Google Play has stopped" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="333" Y="371" Color="#FFEEEEEE" />
+              <Click X="353" Y="373" Color="#FF3E3E3E" />
+              <Click X="407" Y="370" Color="#FFC1C1C1" />
+              <Click X="430" Y="370" Color="#FFEEEEEE" />
+              <Click X="448" Y="370" Color="#FFEEEEEE" />
+              <Click X="471" Y="370" Color="#FFEEEEEE" />
+              <Click X="499" Y="370" Color="#FFEEEEEE" />
+              <Click X="500" Y="370" Color="#FFEEEEEE" />
+              <Click X="708" Y="402" Color="#FFEEEEEE" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Google Play has stopped" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="702" Y="400" Height="9" Width="11" />
                 <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
               </Action>
             </Events>
@@ -295,7 +422,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Happiness Bonus" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Happiness Bonus" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="659" Y="619" Height="16" Width="84" />
@@ -318,7 +445,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Materials Help" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Materials Help" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="806" Y="621" Height="23" Width="107" />
@@ -342,7 +469,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Energy Resource" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Energy Resource" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="858" Y="598" Height="23" Width="106" />
@@ -366,7 +493,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Food Resource" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Food Resource" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="643" Y="377" Height="18" Width="120" />
@@ -390,7 +517,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Excellent Choice" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Excellent Choice" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="484" Y="385" Height="20" Width="117" />
@@ -414,7 +541,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Amazing" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Amazing" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="699" Y="340" Height="22" Width="110" />
@@ -439,7 +566,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Congratulations" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Congratulations" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="827" Y="408" Height="24" Width="119" />
@@ -463,7 +590,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Time for a Manager" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Time for a Manager" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="773" Y="602" Height="17" Width="107" />
@@ -494,7 +621,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Lab" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Lab" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="750" Y="476" Height="109" Width="61" />
@@ -511,7 +638,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="609" Y="479" Height="114" Width="85" />
@@ -528,7 +655,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="498" Y="484" Height="100" Width="67" />
@@ -545,7 +672,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="370" Y="489" Height="83" Width="71" />
@@ -562,7 +689,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="254" Y="496" Height="91" Width="73" />
@@ -579,7 +706,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="250" Y="497" Height="84" Width="70" />
@@ -596,7 +723,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Hotel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Hotel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="748" Y="261" Height="120" Width="80" />
@@ -613,7 +740,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Night Club" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Night Club" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="624" Y="258" Height="103" Width="76" />
@@ -631,7 +758,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Boutique" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Boutique" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="242" Y="261" Height="94" Width="79" />
@@ -649,7 +776,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Cafe" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Cafe" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="384" Y="260" Height="108" Width="62" />
@@ -667,7 +794,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click New Burger" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click New Burger" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="509" Y="261" Height="98" Width="57" />
@@ -692,7 +819,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Lab" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Lab" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="732" Y="553" Height="48" Width="87" />
@@ -709,7 +836,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="623" Y="517" Height="78" Width="63" />
@@ -726,7 +853,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="496" Y="477" Height="116" Width="73" />
@@ -743,7 +870,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="373" Y="509" Height="76" Width="73" />
@@ -760,7 +887,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="235" Y="487" Height="90" Width="73" />
@@ -777,7 +904,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Buy Hotel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Buy Hotel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="756" Y="338" Height="39" Width="70" />
@@ -794,7 +921,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Night Club" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Night Club" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="621" Y="327" Height="46" Width="72" />
@@ -811,7 +938,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Burger" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Burger" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="501" Y="289" Height="82" Width="78" />
@@ -828,7 +955,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Cafe" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Cafe" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="376" Y="350" Height="26" Width="79" />
@@ -845,7 +972,7 @@
                 </ClickList>
                 <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
                 <Events>
-                  <Action Name="Click Boutique" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+                  <Action Name="Click Boutique" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                     <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                     <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                     <Rectangle X="239" Y="347" Height="29" Width="79" />
@@ -886,7 +1013,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Buy Max Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Buy Max Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="461" Y="603" Height="40" Width="117" />
@@ -903,7 +1030,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Food Upgrade" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Food Upgrade" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="711" Y="212" Height="29" Width="109" />
@@ -920,7 +1047,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Energy Upgrades" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Energy Upgrades" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="449" Y="211" Height="30" Width="108" />
@@ -937,7 +1064,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Materials Upgrade" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Materials Upgrade" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="180" Y="208" Height="37" Width="120" />
@@ -955,7 +1082,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Exit City Facilities" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Exit City Facilities" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="957" Y="33" Height="26" Width="33" />
@@ -985,7 +1112,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Login Bonus Expired" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Login Bonus Expired" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="26" Y="8" Height="32" Width="148" />
@@ -1009,7 +1136,7 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
-          <Action Name="Click Close City Group" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+          <Action Name="Click Close City Group" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
             <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="959" Y="29" Height="28" Width="37" />
@@ -1032,6 +1159,23 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
+          <Event Name="Atomic Lab Buy All Available" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="790" Y="612" Color="#FFFDA300" />
+              <Click X="907" Y="609" Color="#FFFDA300" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Buy All Available" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="812" Y="601" Height="33" Width="95" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
           <Event Name="Atomic Lab Buy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
             <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
@@ -1041,10 +1185,27 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Buy" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Buy" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="637" Y="393" Height="38" Width="110" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Hotel" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="175" Y="588" Color="#FFFFA702" />
+              <Click X="175" Y="623" Color="#FFF58A00" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Hotel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="89" Y="585" Height="31" Width="86" />
                 <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
               </Action>
             </Events>
@@ -1058,7 +1219,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Iron Mine" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="244" Y="490" Height="33" Width="80" />
@@ -1075,7 +1236,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Factory" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="239" Y="221" Height="39" Width="88" />
@@ -1092,7 +1253,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Power Plant" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="243" Y="311" Height="34" Width="74" />
@@ -1109,10 +1270,95 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Farm" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="251" Y="404" Height="30" Width="67" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Burger House" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="180" Y="417" Color="#FFFDA300" />
+              <Click X="174" Y="433" Color="#FFF78C00" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Burger House" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="99" Y="409" Height="23" Width="55" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Cafe" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="177" Y="317" Color="#FFFFA702" />
+              <Click X="176" Y="342" Color="#FFF78C00" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Cafe" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="95" Y="312" Height="33" Width="87" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Boutique" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="181" Y="221" Color="#FFFFA702" />
+              <Click X="165" Y="253" Color="#FFF79000" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Boutique" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="92" Y="218" Height="38" Width="85" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Night Club" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="171" Y="494" Color="#FFFFA702" />
+              <Click X="164" Y="524" Color="#FFFF9E02" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Night Club" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="104" Y="498" Height="32" Width="62" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Atomic Lab Lab" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="324" Y="585" Color="#FFFFA702" />
+              <Click X="322" Y="608" Color="#FFFF9E02" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Atomic Lab Lab" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="246" Y="588" Height="35" Width="62" />
                 <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
               </Action>
             </Events>
@@ -1126,7 +1372,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Atomic Lab Close" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Atomic Lab Close" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="959" Y="33" Height="22" Width="36" />
@@ -1164,7 +1410,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Claim Fee Now Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Claim Fee Now Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="550" Y="300" Height="53" Width="189" />
@@ -1181,7 +1427,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click First Entry Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click First Entry Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="232" Y="199" Height="43" Width="100" />
@@ -1198,7 +1444,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Exit Office Group" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Exit Office Group" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="962" Y="30" Height="28" Width="26" />
@@ -1224,7 +1470,7 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
-          <Action Name="Click Claim Fee and Start Over Again" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+          <Action Name="Click Claim Fee and Start Over Again" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
             <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="440" Y="603" Height="37" Width="188" />
@@ -1232,7 +1478,7 @@
           </Action>
         </Events>
       </Event>
-      <Event Name="Check Store Every 12 Hours" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="True" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Time" IsColorPoint="True">
+      <Event Name="Check Store Every 12 Hours" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="True" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="True" WaitType="Time" IsColorPoint="True">
         <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
         <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="12" />
         <ClickList Points="0">
@@ -1241,7 +1487,7 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
-          <Action Name="Click Check Store Every 12 Hours" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+          <Action Name="Click Check Store Every 12 Hours" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
             <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="911" Y="412" Height="35" Width="49" />
@@ -1277,7 +1523,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Daily Gifts Ready to Claim" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Daily Gifts Ready to Claim" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="819" Y="467" Height="48" Width="71" />
@@ -1295,7 +1541,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Daily Gifts Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Daily Gifts Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="705" Y="187" Height="29" Width="119" />
@@ -1312,7 +1558,7 @@
             </ClickList>
             <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
             <Events>
-              <Action Name="Click Close Daily Gifts" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+              <Action Name="Click Close Daily Gifts" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
                 <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
                 <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
                 <Rectangle X="958" Y="27" Height="30" Width="41" />
@@ -1334,7 +1580,7 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
-          <Action Name="Click New Max Level Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+          <Action Name="Click New Max Level Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
             <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="111" Y="15" Height="43" Width="102" />
@@ -1362,12 +1608,89 @@
         </ClickList>
         <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
         <Events>
-          <Action Name="Click Congratulations You reached a new max level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" RelativeXOffset="0" RelativeYOffset="0" DragTargetMode="Absolute">
+          <Action Name="Click Congratulations You reached a new max level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
             <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
             <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
             <Rectangle X="432" Y="529" Height="28" Width="172" />
             <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
           </Action>
+        </Events>
+      </Event>
+      <Event Name="Offline Earnings" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="389" Y="175" Color="#FFFFFFFF" />
+          <Click X="428" Y="171" Color="#FFFFFFFF" />
+          <Click X="471" Y="169" Color="#FFFFFFFF" />
+          <Click X="499" Y="169" Color="#FF504139" />
+          <Click X="552" Y="170" Color="#FFFFFFFF" />
+          <Click X="570" Y="170" Color="#FFFFFFFF" />
+          <Click X="629" Y="169" Color="#FFFFFFFF" />
+          <Click X="643" Y="166" Color="#FF55453D" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Action Name="Click Offline Earnings" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="408" Y="572" Height="41" Width="214" />
+            <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Upgrades Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="507" Y="29" Color="#FFFFE6A1" />
+          <Click X="522" Y="29" Color="#FFFFE6A1" />
+          <Click X="556" Y="30" Color="#FFFFE6A1" />
+          <Click X="577" Y="33" Color="#FFF7DF9C" />
+          <Click X="600" Y="33" Color="#FFFFE6A1" />
+          <Click X="618" Y="33" Color="#FF5EB8FA" />
+          <Click X="636" Y="33" Color="#FFFFE6A1" />
+          <Click X="668" Y="29" Color="#FFFFE6A1" />
+          <Click X="677" Y="28" Color="#FF2B577A" />
+          <Click X="700" Y="28" Color="#FF4890C9" />
+          <Click X="714" Y="28" Color="#FFFFE6A1" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Event Name="Top Upgrade Ready" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="247" Y="172" Color="#FFFDA300" />
+              <Click X="233" Y="183" Color="#FFF68B00" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Top Upgrade Ready" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="94" Y="171" Height="16" Width="113" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Close Upgrades" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="956" Y="42" Color="#FFF13329" />
+              <Click X="1002" Y="44" Color="#FFF60020" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Close Upgrades" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="950" Y="28" Height="27" Width="48" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
         </Events>
       </Event>
     </Events>
