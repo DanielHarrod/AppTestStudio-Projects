@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<AppTestStudio>
+  <App Name="Grow Castle" TargetGameBuild="" PackageName="com.raongames.growcastle" LaunchInstance="1" LoopDelay="200" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192">
+    <Events>
+      <Event Name="Battle" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="923" Y="727" Color="#FFBFB9AC" />
+          <Click X="960" Y="727" Color="#FFBFB9AC" />
+          <Click X="958" Y="708" Color="#FFBFB9AC" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Action Name="Click Upgrade Archer" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="776" Y="166" Height="30" Width="159" />
+            <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+          </Action>
+          <Action Name="Click Battle" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="929" Y="699" Height="39" Width="65" />
+            <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Bonus Chest" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <ObjectSearch ObjectName="Bonus Chest" Channel="Red" Threshold="70">
+          <Rectangle X="594" Y="558" Height="96" Width="315" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Chest" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="834" Y="588" Height="41" Width="48" />
+            <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Archer Play - Front Middle" LogicChoice="OR" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="5">
+          <Click X="951" Y="673" Color="#FF24231E" />
+          <Click X="978" Y="708" Color="#FF6C5F4C" />
+          <Click X="948" Y="723" Color="#FF73685A" />
+          <Click X="349" Y="286" Color="#FF50B4F4" />
+          <Click X="365" Y="288" Color="#FF54BCFF" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Action Name="Click Archer Play" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="352" Y="303" Height="31" Width="30" />
+            <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Captcha Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="239" Y="181" Color="#FF625749" />
+          <Click X="248" Y="180" Color="#FF766F65" />
+          <Click X="262" Y="178" Color="#FF4F4942" />
+          <Click X="269" Y="177" Color="#FF625749" />
+          <Click X="298" Y="176" Color="#FFA6A6A6" />
+          <Click X="298" Y="176" Color="#FFA6A6A6" />
+          <Click X="307" Y="176" Color="#FFA6A6A6" />
+          <Click X="318" Y="177" Color="#FFA6A6A6" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Event Name="Captcha - Axe Search " LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Axe Search" Channel="Red" Threshold="68">
+              <Rectangle X="331" Y="333" Height="51" Width="296" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha - Axe Search Level 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Axe Search Lower" Channel="Red" Threshold="60">
+                  <Rectangle X="186" Y="439" Height="164" Width="572" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Captcha - Click Axe Search Level 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="225" Y="491" Height="35" Width="35" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Rogue" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Rogue" Channel="Red" Threshold="70">
+              <Rectangle X="355" Y="362" Height="36" Width="246" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Capcha Rogue Level 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Rogue" Channel="Red" Threshold="70">
+                  <Rectangle X="192" Y="451" Height="153" Width="572" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Capcha Rogue Level 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="500" Y="475" Height="25" Width="30" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Spear" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Captcha Spear" Channel="Red" Threshold="50">
+              <Rectangle X="347" Y="364" Height="48" Width="274" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Capcha Spear Level 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Captcha Spear" Channel="Red" Threshold="70">
+                  <Rectangle X="187" Y="436" Height="168" Width="572" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Capcha Spear Level 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="690" Y="455" Height="35" Width="36" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Bazooka Guy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Captcha Bazooka Top" Channel="Red" Threshold="70">
+              <Rectangle X="338" Y="335" Height="48" Width="294" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Bazooka Level 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Captcha Bazooka Level 2" Channel="Red" Threshold="70">
+                  <Rectangle X="180" Y="466" Height="153" Width="592" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Bazooka Level 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="211" Y="498" Height="33" Width="32" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Bounch Ball" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Captcha Bouncy Ball 1" Channel="Red" Threshold="70">
+              <Rectangle X="344" Y="335" Height="71" Width="284" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Capcha Bouncy Ball Level 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Captcha Bouncy Ball 2" Channel="Red" Threshold="70">
+                  <Rectangle X="183" Y="435" Height="152" Width="575" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Capcha Bouncy Ball Level 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="333" Y="536" Height="18" Width="16" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Bow Guy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Captcha Bow Guy" Channel="Red" Threshold="70">
+              <Rectangle X="338" Y="335" Height="71" Width="279" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Bow Guy Lower" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Captcha Bow Lower" Channel="Red" Threshold="70">
+                  <Rectangle X="192" Y="465" Height="147" Width="558" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Bow Guy Lower" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="699" Y="489" Height="28" Width="17" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Green Guy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Green guy" Channel="Red" Threshold="70">
+              <Rectangle X="331" Y="326" Height="56" Width="282" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Green Guy Lower Level " LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Green guy" Channel="Red" Threshold="65">
+                  <Rectangle X="188" Y="439" Height="150" Width="577" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Green Guy Lower Level " UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="320" Y="462" Height="30" Width="23" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Knight" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Knight" Channel="Red" Threshold="70">
+              <Rectangle X="337" Y="333" Height="53" Width="282" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Knight Lower Level" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Knight" Channel="Red" Threshold="62">
+                  <Rectangle X="185" Y="436" Height="144" Width="583" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Knight Lower Level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="401" Y="528" Height="26" Width="30" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Witch" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Witch Hat" Channel="Red" Threshold="70">
+              <Rectangle X="334" Y="303" Height="67" Width="279" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Witch Lower Level" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Witch Hat" Channel="Red" Threshold="60">
+                  <Rectangle X="191" Y="436" Height="188" Width="577" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Witch Lower Level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="689" Y="522" Height="33" Width="38" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Bird Mage" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Bird Mage" Channel="Red" Threshold="70">
+              <Rectangle X="338" Y="305" Height="52" Width="296" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Bird Mage Lower Level" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Bird Mage Lower" Channel="Red" Threshold="70">
+                  <Rectangle X="176" Y="430" Height="168" Width="590" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Bird Mage Lower Level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="606" Y="507" Height="29" Width="23" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Captcha Skull" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Skull" Channel="Red" Threshold="70">
+              <Rectangle X="330" Y="321" Height="58" Width="287" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Captcha Skull Lower Level" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Skull" Channel="Red" Threshold="70">
+                  <Rectangle X="180" Y="405" Height="187" Width="588" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Captcha Skull Lower Level" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="193" Y="445" Height="18" Width="21" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="Fox Hero" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Fox Hero" Channel="Red" Threshold="70">
+              <Rectangle X="334" Y="317" Height="100" Width="285" />
+            </ObjectSearch>
+            <Events>
+              <Event Name="Fox Hero Lower" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+                <ObjectSearch ObjectName="Fox Hero" Channel="Red" Threshold="68">
+                  <Rectangle X="200" Y="443" Height="176" Width="563" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Fox Hero Lower" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="230" Y="493" Height="21" Width="22" />
+                    <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Axe Search" FileName="2020-06-01-08-38-18-264836687.bmp" />
+      <Object Name="Axe Search Lower" FileName="2020-06-01-08-39-27-264905500.bmp" />
+      <Object Name="Bonus Chest" FileName="2020-06-01-08-44-48-265226531.bmp" />
+      <Object Name="Rogue" FileName="2020-06-01-09-31-56-268054718.bmp" />
+      <Object Name="Captcha Spear" FileName="2020-06-01-12-44-41-279615875.bmp" />
+      <Object Name="Captcha Bazooka Top" FileName="2020-06-01-15-03-12-287927234.bmp" />
+      <Object Name="Captcha Bazooka Level 2" FileName="2020-06-01-15-04-03-287978250.bmp" />
+      <Object Name="Captcha Bouncy Ball 1" FileName="2020-06-01-15-55-52-291087671.bmp" />
+      <Object Name="Captcha Bouncy Ball 2" FileName="2020-06-01-15-57-04-291159609.bmp" />
+      <Object Name="Captcha Bow Guy" FileName="2020-06-01-16-58-06-294820921.bmp" />
+      <Object Name="Captcha Bow Lower" FileName="2020-06-01-16-59-03-294877890.bmp" />
+      <Object Name="Green guy" FileName="2020-06-02-07-38-07-347622171.bmp" />
+      <Object Name="Knight" FileName="2020-06-02-08-25-03-350438250.bmp" />
+      <Object Name="Witch Hat" FileName="2020-06-02-10-13-27-356942234.bmp" />
+      <Object Name="Bird Mage" FileName="2020-06-02-12-19-52-364527484.bmp" />
+      <Object Name="Bird Mage Lower" FileName="2020-06-02-12-21-28-364622765.bmp" />
+      <Object Name="Skull" FileName="2020-06-02-16-43-29-380339953.bmp" />
+      <Object Name="Fox Hero" FileName="2020-06-02-21-15-37-396668515.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>

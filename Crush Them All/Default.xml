@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<AppTestStudio>
+  <App Name="Crush Them All" TargetGameBuild="" PackageName="com.godzilab.idlerpg" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="25" DPI="192">
+    <Events>
+      <Event Name="Popups Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" RepeatsLimit="4">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Progress faster" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" RepeatsLimit="5">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="289" Y="374" Color="#FF2D1702" />
+              <Click X="333" Y="374" Color="#FF281500" />
+              <Click X="363" Y="374" Color="#FF3D2B18" />
+              <Click X="382" Y="374" Color="#FF594838" />
+              <Click X="418" Y="374" Color="#FF6A5A4A" />
+              <Click X="433" Y="373" Color="#FF33210D" />
+              <Click X="467" Y="374" Color="#FF3E2D1A" />
+              <Click X="284" Y="718" Color="#FFF5AC81" />
+              <Click X="479" Y="726" Color="#FFC4CE4D" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Progress faster - Wait 30" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="30" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="470" Y="704" Height="52" Width="79" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="News" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="350" Y="47" Color="#FF9B928C" />
+              <Click X="366" Y="52" Color="#FFFFFFFF" />
+              <Click X="383" Y="54" Color="#FF2D1A0B" />
+              <Click X="395" Y="53" Color="#FFFFFFFF" />
+              <Click X="403" Y="53" Color="#FFFDFDFD" />
+              <Click X="642" Y="50" Color="#FF2B1809" />
+              <Click X="663" Y="50" Color="#FF6E3911" />
+              <Click X="673" Y="49" Color="#FFFFFFFF" />
+              <Click X="682" Y="49" Color="#FF523723" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click News" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="667" Y="34" Height="32" Width="31" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Watch a short video to get F" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="298" Y="473" Color="#FF4CDFFF" />
+              <Click X="300" Y="518" Color="#FF4CDFFF" />
+              <Click X="454" Y="479" Color="#FF4CDFFF" />
+              <Click X="469" Y="526" Color="#FF4CDFFF" />
+              <Click X="358" Y="640" Color="#FF6C370C" />
+              <Click X="399" Y="641" Color="#FF6C370C" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Watch a short video to get F - Wait 32" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="32" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="314" Y="475" Height="77" Width="129" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Game is still running" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="330" Y="604" Color="#FF00CBDC" />
+              <Click X="401" Y="605" Color="#FF00CADB" />
+              <Click X="269" Y="292" Color="#FF281500" />
+              <Click X="316" Y="294" Color="#FF281500" />
+              <Click X="355" Y="297" Color="#FFF5F4F2" />
+              <Click X="404" Y="297" Color="#FFA69990" />
+              <Click X="450" Y="297" Color="#FFFFFFFF" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Game is still running" UseParentPicture="True" AfterCompletionType="Home" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="360" Y="610" Height="7" Width="11" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Gold Chest Reward Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Event Name="Gold Chest Reward" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="4">
+                  <Click X="257" Y="288" Color="#FF4A280F" />
+                  <Click X="284" Y="289" Color="#FF281500" />
+                  <Click X="297" Y="289" Color="#FF2A1601" />
+                  <Click X="320" Y="291" Color="#FFFFFFFF" />
+                  <Click X="331" Y="293" Color="#FFDCD9D5" />
+                  <Click X="352" Y="293" Color="#FFFFFFFF" />
+                  <Click X="364" Y="292" Color="#FF837467" />
+                  <Click X="389" Y="291" Color="#FF948B80" />
+                  <Click X="437" Y="291" Color="#FF281500" />
+                  <Click X="449" Y="290" Color="#FFE6E4E1" />
+                  <Click X="496" Y="290" Color="#FFFFFFFF" />
+                  <Click X="312" Y="696" Color="#FF00DAE4" />
+                  <Click X="426" Y="754" Color="#FF009BC0" />
+                </ClickList>
+                <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+                <Events>
+                  <Action Name="Click Gold Chest Reward" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="345" Y="709" Height="51" Width="81" />
+                    <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Gold Chest Reward 2" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0">
+                  <Click X="273" Y="278" Color="#FF4A280F" />
+                  <Click X="340" Y="286" Color="#FFFFFFFF" />
+                  <Click X="352" Y="287" Color="#FFFFFFFF" />
+                  <Click X="376" Y="286" Color="#FF4A280F" />
+                  <Click X="409" Y="290" Color="#FF281500" />
+                  <Click X="431" Y="291" Color="#FFCCC5C0" />
+                  <Click X="438" Y="292" Color="#FF514231" />
+                  <Click X="463" Y="295" Color="#FF281500" />
+                  <Click X="486" Y="293" Color="#FF3E2C1A" />
+                  <Click X="500" Y="287" Color="#FFBCB6AF" />
+                  <Click X="327" Y="715" Color="#FF00CBDC" />
+                  <Click X="448" Y="747" Color="#FF00A7C7" />
+                </ClickList>
+                <Picture FileName="" ResolutionWidth="769" ResolutionHeight="1026" />
+                <Events>
+                  <Action Name="Click Gold Chest Reward 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="332" Y="706" Height="62" Width="109" />
+                    <Picture ResolutionWidth="769" ResolutionHeight="1026" FileName="" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="While you were away..." LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="238" Y="150" Color="#FF7B4C2B" />
+              <Click X="265" Y="148" Color="#FFFCFBFB" />
+              <Click X="294" Y="150" Color="#FF584233" />
+              <Click X="318" Y="152" Color="#FFE3DEDB" />
+              <Click X="354" Y="154" Color="#FF341C0A" />
+              <Click X="389" Y="154" Color="#FFB3AAA3" />
+              <Click X="423" Y="154" Color="#FF361D0A" />
+              <Click X="464" Y="155" Color="#FFFFFFFF" />
+              <Click X="482" Y="155" Color="#FFB3A9A1" />
+              <Click X="419" Y="818" Color="#FF0095BD" />
+              <Click X="632" Y="544" Color="#FF4A280F" />
+              <Click X="137" Y="523" Color="#FF4A280F" />
+              <Click X="422" Y="755" Color="#FF00D9E4" />
+              <Click X="392" Y="648" Color="#FF4A280F" />
+              <Click X="392" Y="605" Color="#FF4A280F" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Whle you were away..." UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="332" Y="757" Height="65" Width="108" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Login Rewards" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="201" Y="963" Color="#FF9F703A" />
+              <Click X="317" Y="954" Color="#FF4A280F" />
+              <Click X="358" Y="962" Color="#FF784F26" />
+              <Click X="386" Y="962" Color="#FF4A280F" />
+              <Click X="538" Y="961" Color="#FF4A280F" />
+              <Click X="504" Y="967" Color="#FF4B2910" />
+              <Click X="503" Y="967" Color="#FFAF7D42" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Login Rewards" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="654" Y="25" Height="39" Width="40" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="No videos" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="326" Y="292" Color="#FFFFFFFF" />
+              <Click X="352" Y="293" Color="#FF827466" />
+              <Click X="375" Y="299" Color="#FFC4BCB4" />
+              <Click X="324" Y="557" Color="#FF32E4EB" />
+              <Click X="428" Y="600" Color="#FF00B1CC" />
+              <Click X="381" Y="597" Color="#FFFFFFFF" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click No videos" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="344" Y="573" Height="58" Width="89" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Congratulations" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="291" Y="59" Color="#FFD71F1F" />
+              <Click X="343" Y="60" Color="#FF571E1E" />
+              <Click X="383" Y="60" Color="#FFFFFFFF" />
+              <Click X="417" Y="61" Color="#FF9F6060" />
+              <Click X="451" Y="59" Color="#FFFFFFFF" />
+              <Click X="473" Y="58" Color="#FF410101" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Congratulations" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="284" Y="355" Height="202" Width="208" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Rate App" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="198" Y="237" Color="#FF542806" />
+              <Click X="254" Y="245" Color="#FF9D836D" />
+              <Click X="303" Y="249" Color="#FFE2D8CF" />
+              <Click X="346" Y="247" Color="#FFFCFBFA" />
+              <Click X="397" Y="242" Color="#FF542806" />
+              <Click X="483" Y="235" Color="#FF542806" />
+              <Click X="546" Y="289" Color="#FF6F4321" />
+              <Click X="466" Y="294" Color="#FFFAE9D2" />
+              <Click X="407" Y="294" Color="#FF6F4321" />
+              <Click X="369" Y="292" Color="#FF8A6444" />
+              <Click X="315" Y="291" Color="#FFB5977A" />
+              <Click X="259" Y="293" Color="#FFECD8BF" />
+              <Click X="212" Y="293" Color="#FF926D4E" />
+              <Click X="207" Y="293" Color="#FF6F4321" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Rate App" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="233" Y="726" Height="50" Width="94" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Crusher Chester Popup" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="126" Y="892" Color="#FFE3C51E" />
+              <Click X="280" Y="914" Color="#FFBD0089" />
+              <Click X="334" Y="921" Color="#FFBA0083" />
+              <Click X="396" Y="921" Color="#FFBA0083" />
+              <Click X="452" Y="921" Color="#FFBA0083" />
+              <Click X="554" Y="925" Color="#FF1F1711" />
+              <Click X="627" Y="926" Color="#FF1F1711" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Crusher Chester Popup" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="655" Y="54" Height="31" Width="36" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="One Time Offer" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="303" Y="45" Color="#FFFFD56C" />
+              <Click X="315" Y="42" Color="#FFFFE088" />
+              <Click X="344" Y="36" Color="#FFFFFFE2" />
+              <Click X="365" Y="37" Color="#FFFFFFE2" />
+              <Click X="406" Y="39" Color="#FFFFDE7F" />
+              <Click X="423" Y="36" Color="#FF7B0A06" />
+              <Click X="443" Y="36" Color="#FFFFFFE2" />
+              <Click X="456" Y="35" Color="#FFFFF2BD" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click One Time Offer" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="655" Y="43" Height="46" Width="40" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Events" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="320" Y="98" Color="#FF210509" />
+              <Click X="341" Y="97" Color="#FFC1B9BA" />
+              <Click X="358" Y="98" Color="#FF3B2226" />
+              <Click X="384" Y="98" Color="#FFFFFFFF" />
+              <Click X="396" Y="98" Color="#FF574245" />
+              <Click X="411" Y="98" Color="#FF210509" />
+              <Click X="427" Y="100" Color="#FF4B3538" />
+              <Click X="440" Y="98" Color="#FF270B0F" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Events" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="685" Y="953" Height="40" Width="50" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="x2 Speed" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="353" Y="462" Color="#FF4D2A11" />
+              <Click X="365" Y="466" Color="#FF533018" />
+              <Click X="384" Y="475" Color="#FF4B2817" />
+              <Click X="392" Y="479" Color="#FFFFB000" />
+              <Click X="413" Y="483" Color="#FF9E8669" />
+              <Click X="427" Y="488" Color="#FFD89406" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click x2 Speed" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="349" Y="450" Height="93" Width="143" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Claim Gifts" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="330" Y="169" Color="#FFF1D8C0" />
+              <Click X="502" Y="172" Color="#FFF0D6BD" />
+              <Click X="320" Y="821" Color="#FFF2BE1C" />
+              <Click X="457" Y="825" Color="#FFF2BD1B" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Claim Gifts" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="293" Y="798" Height="62" Width="167" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Princess Dream" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="274" Y="715" Color="#FFF5C724" />
+              <Click X="286" Y="715" Color="#FF977613" />
+              <Click X="291" Y="715" Color="#FFD5AC21" />
+              <Click X="301" Y="710" Color="#FFF5C724" />
+              <Click X="327" Y="724" Color="#FF583F09" />
+              <Click X="361" Y="718" Color="#FFF5C724" />
+              <Click X="380" Y="718" Color="#FFF5C724" />
+              <Click X="381" Y="718" Color="#FFF5C724" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Princess Dream" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="331" Y="422" Height="98" Width="80" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Connect to Facebook" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="286" Y="868" Color="#FF617DC2" />
+              <Click X="345" Y="886" Color="#FF042A5A" />
+              <Click X="360" Y="890" Color="#FF002757" />
+              <Click X="407" Y="896" Color="#FF12376B" />
+              <Click X="426" Y="893" Color="#FF506CB2" />
+              <Click X="413" Y="885" Color="#FFF5F7F8" />
+              <Click X="391" Y="890" Color="#FF022958" />
+              <Click X="364" Y="872" Color="#FF5F7AC0" />
+              <Click X="659" Y="65" Color="#FF723C12" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Connect to Facebook" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="660" Y="49" Height="32" Width="28" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Double Wings" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="223" Y="450" Color="#FFFFF1D7" />
+              <Click X="245" Y="484" Color="#FFFFF1D4" />
+              <Click X="274" Y="503" Color="#FF522D11" />
+              <Click X="309" Y="489" Color="#FF512F19" />
+              <Click X="329" Y="462" Color="#FFA26F0A" />
+              <Click X="466" Y="452" Color="#FFFFF0D9" />
+              <Click X="520" Y="478" Color="#FF4C2816" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Double Wings" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="383" Y="443" Height="126" Width="95" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Invite Friends" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="291" Y="864" Color="#FFF3C222" />
+              <Click X="371" Y="866" Color="#FFF3C121" />
+              <Click X="423" Y="863" Color="#FFF3C222" />
+              <Click X="488" Y="886" Color="#FFF2BE1B" />
+              <Click X="690" Y="61" Color="#FF723C12" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Invite Friends" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="657" Y="41" Height="40" Width="38" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="No Connection" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="292" Y="284" Color="#FF281500" />
+              <Click X="325" Y="287" Color="#FF2D1702" />
+              <Click X="359" Y="289" Color="#FF94877C" />
+              <Click X="372" Y="290" Color="#FFE6E4E1" />
+              <Click X="408" Y="295" Color="#FFF6F5F4" />
+              <Click X="435" Y="296" Color="#FF281500" />
+              <Click X="453" Y="292" Color="#FFFFFFFF" />
+              <Click X="312" Y="580" Color="#FF00C8DA" />
+              <Click X="435" Y="611" Color="#FF00A4C5" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click No Connection" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="1" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="329" Y="561" Height="55" Width="109" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Unable to connect to the servers" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="340" Y="290" Color="#FF4A280F" />
+              <Click X="351" Y="288" Color="#FF281500" />
+              <Click X="363" Y="286" Color="#FFFFFFFF" />
+              <Click X="383" Y="285" Color="#FF4A280F" />
+              <Click X="404" Y="284" Color="#FF4A280F" />
+              <Click X="404" Y="284" Color="#FF4A280F" />
+              <Click X="246" Y="438" Color="#FF4A2910" />
+              <Click X="301" Y="440" Color="#FFF5F3F2" />
+              <Click X="361" Y="448" Color="#FFBAAEA4" />
+              <Click X="342" Y="546" Color="#FF00CFDE" />
+              <Click X="422" Y="586" Color="#FF00A2C4" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Unable to connect to the servers" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="1" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="322" Y="537" Height="62" Width="118" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Prism 2x" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="382" Y="437" Color="#FF009FFF" />
+              <Click X="372" Y="478" Color="#FFFFFFFF" />
+              <Click X="362" Y="504" Color="#FFFFFFFF" />
+              <Click X="345" Y="517" Color="#FF4B2109" />
+              <Click X="338" Y="521" Color="#FF4A2102" />
+              <Click X="355" Y="537" Color="#FFFFB700" />
+              <Click X="408" Y="546" Color="#FFFFB700" />
+              <Click X="418" Y="526" Color="#FFBD7D02" />
+              <Click X="416" Y="490" Color="#FF512910" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Prism 2x" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="341" Y="457" Height="129" Width="117" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Dungeon Ticket" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="320" Y="426" Color="#FFF0C544" />
+              <Click X="362" Y="465" Color="#FF7D4100" />
+              <Click X="413" Y="508" Color="#FFBE5A00" />
+              <Click X="428" Y="446" Color="#FFBB6400" />
+              <Click X="339" Y="555" Color="#FF994612" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Dungeon Ticket" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="330" Y="449" Height="96" Width="100" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Search for Brown Chest" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <ObjectSearch ObjectName="Brown Chest" Channel="Red" Threshold="70">
+          <Rectangle X="17" Y="283" Height="46" Width="737" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Search for Brown Chest" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="204" Y="295" Height="21" Width="17" />
+            <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Gold Chest" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <ObjectSearch ObjectName="Gold Chest" Channel="Red" Threshold="65">
+          <Rectangle X="78" Y="281" Height="42" Width="556" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Gold Chest" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="-9" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="431" Y="287" Height="27" Width="26" />
+            <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Ultimate Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Q4 Play 1" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="304" Y="462" Color="#FFFFFFFF" />
+              <Click X="304" Y="470" Color="#FFFFFFFF" />
+              <Click X="304" Y="480" Color="#FFFFFFFF" />
+              <Click X="299" Y="492" Color="#FF00DDE0" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Scroll to End of Level" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="400" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="740" Y="337" Height="-1" Width="-681" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Ultimate 4 Play 1" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="264" Y="458" Height="29" Width="31" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ultimate 1 Is Ready" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="339" Y="450" Color="#FFFFFFFF" />
+              <Click X="338" Y="464" Color="#FFFBF9F9" />
+              <Click X="339" Y="484" Color="#FFFFFFFF" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Scroll to End of Level" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="400" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="740" Y="337" Height="-1" Width="-681" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Ultimate 1" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="3" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="293" Y="452" Height="35" Width="34" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ultimate 2 Is Ready" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="409" Y="452" Color="#FFFFFFFF" />
+              <Click X="409" Y="469" Color="#FFFFFFFF" />
+              <Click X="409" Y="488" Color="#FFFFFFFF" />
+              <Click X="383" Y="493" Color="#FFA6E800" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Scroll to End of Level" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="400" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="740" Y="337" Height="-1" Width="-681" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Ultimate 2" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="3" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="367" Y="457" Height="32" Width="31" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ultimate 3 Is Ready" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="479" Y="454" Color="#FFFFFFFF" />
+              <Click X="479" Y="472" Color="#FFFFFFFF" />
+              <Click X="478" Y="489" Color="#FFEDE9E9" />
+              <Click X="473" Y="487" Color="#FFF7BA01" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Scroll to End of Level" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="400" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="740" Y="337" Height="-1" Width="-681" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Ultimate 3" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="3" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="439" Y="454" Height="30" Width="29" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="ADS Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Resume Video 766x1021" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="107" Y="411" Color="#FFFFFFFF" />
+              <Click X="590" Y="571" Color="#FFFFFEFF" />
+              <Click X="498" Y="593" Color="#FF3E82F7" />
+              <Click X="380" Y="609" Color="#FFFFFFFF" />
+              <Click X="217" Y="621" Color="#FFFFFDFF" />
+              <Click X="177" Y="604" Color="#FFFFFFFF" />
+              <Click X="254" Y="605" Color="#FFFFFFFF" />
+              <Click X="280" Y="606" Color="#FFE3EBFE" />
+              <Click X="296" Y="605" Color="#FFFFFEFF" />
+              <Click X="307" Y="604" Color="#FFBFD5FD" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Resume Video 766x1021 - w/30" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="30" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="442" Y="591" Height="34" Width="212" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thick Dark X, 766x1021" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Thick Dark X" Channel="Red" Threshold="70">
+              <Rectangle X="706" Y="20" Height="37" Width="41" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thick Dark X, 766x1021" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="717" Y="27" Height="22" Width="19" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thick White X, 766x1021" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Thick White X" Channel="Red" Threshold="67">
+              <Rectangle X="692" Y="14" Height="52" Width="67" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thick White X, 766x1021" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="727" Y="24" Height="14" Width="11" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thick Black Right" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Thick Dark X" Channel="Red" Threshold="70">
+              <Rectangle X="20" Y="22" Height="34" Width="36" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thick Black Right" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="28" Y="29" Height="17" Width="19" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thick White X, 766x1021" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" Anchor="Top,Right" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Thick White X1" Channel="Red" Threshold="70">
+              <Rectangle X="698" Y="4" Height="55" Width="60" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thick White X, 766x1021" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="721" Y="24" Height="15" Width="19" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Tiny White X, 766x1021" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Tiny White X" Channel="Red" Threshold="70">
+              <Rectangle X="748" Y="8" Height="11" Width="8" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Tiny White X, 766x1021" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="748" Y="8" Height="5" Width="5" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="New Event" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Tiny Black X" Channel="Red" Threshold="85">
+              <Rectangle X="10" Y="9" Height="13" Width="13" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click New Event" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="15" Y="13" Height="4" Width="0" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thin Dark, Left, 1024x768" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Thin Black X" Channel="Red" Threshold="70">
+              <Rectangle X="11" Y="13" Height="39" Width="42" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thin Dark, Left, 1024x768" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="26" Y="23" Height="14" Width="15" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thick White, right, 1024x768" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Thick White X1" Channel="Red" Threshold="70">
+              <Rectangle X="978" Y="15" Height="26" Width="26" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thick White, right, 1024x768" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="984" Y="24" Height="13" Width="13" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Tiny White, Right, 1024x768" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Tiny White X" Channel="Red" Threshold="70">
+              <Rectangle X="1002" Y="5" Height="14" Width="14" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Tiny White, Right, 1024x768" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="1007" Y="10" Height="10" Width="5" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Thin Dark, Right, 1024x768" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <ObjectSearch ObjectName="Thin Dark X" Channel="Red" Threshold="70">
+              <Rectangle X="983" Y="13" Height="30" Width="33" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Thin Dark, Right, 1024x768" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="994" Y="18" Height="10" Width="8" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <RNG-Container AutoBalance="True" Name="Switch Tabs" AfterCompletionType="Continue">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="15" Minutes="0" Hours="0" />
+        <RNG Percentage="33">
+          <Events>
+            <Event Name="Is Heroes Unselected?" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+              <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+              <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+              <ClickList Points="0">
+                <Click X="99" Y="943" Color="#FFE0A859" />
+                <Click X="103" Y="975" Color="#FFE1AA5B" />
+                <Click X="101" Y="996" Color="#FFE0A759" />
+              </ClickList>
+              <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+              <Events>
+                <Action Name="Click Heroes" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                  <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                  <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                  <Rectangle X="26" Y="958" Height="39" Width="51" />
+                  <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                </Action>
+              </Events>
+            </Event>
+          </Events>
+        </RNG>
+        <RNG Percentage="34">
+          <Events>
+            <Event Name="Is Village Unselected?" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+              <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+              <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+              <ClickList Points="0">
+                <Click X="217" Y="1010" Color="#FFE0A85B" />
+                <Click X="218" Y="987" Color="#FFDEA556" />
+              </ClickList>
+              <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+              <Events>
+                <Action Name="Click Village" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                  <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                  <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                  <Rectangle X="140" Y="951" Height="51" Width="58" />
+                  <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                </Action>
+              </Events>
+            </Event>
+          </Events>
+        </RNG>
+      </RNG-Container>
+      <Event Name="Speed Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Play 2x Speed" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="203" Y="32" Color="#FF62574A" />
+              <Click X="212" Y="33" Color="#FF502B14" />
+              <Click X="228" Y="36" Color="#FFAC7803" />
+              <Click X="254" Y="33" Color="#FFEEE0C4" />
+              <Click X="273" Y="34" Color="#FF4E2914" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Play 2x Speed" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="199" Y="23" Height="15" Width="68" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Village Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="123" Y="947" Color="#FFFCE59B" />
+          <Click X="140" Y="974" Color="#FF5C7F07" />
+          <Click X="166" Y="983" Color="#FFD0A16A" />
+          <Click X="196" Y="978" Color="#FF95662F" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Search for Buy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Buy" Channel="Red" Threshold="86">
+              <Rectangle X="651" Y="644" Height="252" Width="53" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Search for Buy" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="659" Y="823" Height="22" Width="34" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Search for Invinity" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Infinity" Channel="Red" Threshold="70">
+              <Rectangle X="21" Y="644" Height="278" Width="72" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Search for Invinity" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="42" Y="699" Height="20" Width="22" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Get Bonus" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Present" Channel="Red" Threshold="70">
+              <Rectangle X="37" Y="632" Height="286" Width="39" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Get Bonus" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="40" Y="706" Height="27" Width="29" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Search for Collect" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" RepeatsLimit="5">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="239" Y="640" Color="#FF1AA1D3" />
+              <Click X="239" Y="636" Color="#FF1AA1D3" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Collect" Channel="Red" Threshold="70">
+              <Rectangle X="236" Y="635" Height="287" Width="89" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Search for Collect" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="200" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="287" Y="717" Height="16" Width="14" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Scroll to top" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="2 Sides Disabled" Channel="Red" Threshold="95">
+              <Rectangle X="86" Y="629" Height="301" Width="37" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Scroll to top" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="323" Y="640" Height="379" Width="-3" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Scroll to top" UseParentPicture="True" AfterCompletionType="Continue" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="323" Y="640" Height="379" Width="-3" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click Scroll to top" UseParentPicture="True" AfterCompletionType="Home" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="323" Y="640" Height="379" Width="-3" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Search for Upgrade" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" RepeatsLimit="6">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Upgrade" Channel="Red" Threshold="91">
+              <Rectangle X="623" Y="627" Height="285" Width="107" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Search for Upgrade" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="400" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="628" Y="655" Height="26" Width="91" />
+                <Events>
+                  <Event Name="Find 100" LogicChoice="AND" UseParentPicture="False" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+                    <ObjectSearch ObjectName="+100" Channel="Red" Threshold="70">
+                      <Rectangle X="399" Y="646" Height="270" Width="65" />
+                    </ObjectSearch>
+                    <Events>
+                      <Action Name="Click Find 100" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="200" RelativeXOffset="0" RelativeYOffset="0">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="411" Y="696" Height="26" Width="33" />
+                        <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                      </Action>
+                    </Events>
+                  </Event>
+                  <Event Name="Find +10" LogicChoice="AND" UseParentPicture="False" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+                    <ObjectSearch ObjectName="+10" Channel="Red" Threshold="70">
+                      <Rectangle X="510" Y="687" Height="171" Width="60" />
+                    </ObjectSearch>
+                    <Events>
+                      <Action Name="Click Find +10" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="518" Y="697" Height="26" Width="38" />
+                        <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                      </Action>
+                    </Events>
+                  </Event>
+                </Events>
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Action Name="Scroll Down A Little" UseParentPicture="True" AfterCompletionType="Home" Mode="ClickDragRelease" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+            <ClickDragRelease Mode="None" Velocity="500" StartHeight="0" StartWidth="0" EndHeight="0" EndWidth="0" />
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="15" Minutes="0" Hours="0" />
+            <Rectangle X="410" Y="768" Height="-31" Width="-1" />
+            <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Ascend Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Ascend Wheel" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="284" Y="62" Color="#FF2B1809" />
+              <Click X="298" Y="62" Color="#FF3D2C1E" />
+              <Click X="356" Y="62" Color="#FFF3F2F1" />
+              <Click X="390" Y="60" Color="#FF2B1809" />
+              <Click X="423" Y="60" Color="#FFE5E3E1" />
+              <Click X="452" Y="58" Color="#FFFEFEFE" />
+              <Click X="478" Y="58" Color="#FF2B1809" />
+              <Click X="675" Y="60" Color="#FFFEFEFE" />
+              <Click X="435" Y="927" Color="#FF00B6D0" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Ascend Wheel wait 9 sec" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="9" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="333" Y="902" Height="60" Width="120" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+              <Action Name="Click to Capture Item" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="329" Y="435" Height="86" Width="101" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Exit Ascdend Wheel" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="284" Y="61" Color="#FF2B1809" />
+              <Click X="366" Y="62" Color="#FFFFFFFF" />
+              <Click X="406" Y="62" Color="#FF2E1B0C" />
+              <Click X="431" Y="60" Color="#FFD4D0CC" />
+              <Click X="463" Y="60" Color="#FF382618" />
+              <Click X="653" Y="62" Color="#FF713C12" />
+              <Click X="682" Y="62" Color="#FF713B12" />
+              <Click X="692" Y="62" Color="#FF5A3618" />
+              <Click X="644" Y="51" Color="#FFC8C4C1" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Exit Ascdend Wheel" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="650" Y="41" Height="37" Width="38" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ascend Yes/No" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="322" Y="380" Color="#FF4A280F" />
+              <Click X="352" Y="380" Color="#FFFFFFFF" />
+              <Click X="373" Y="383" Color="#FFFFFFFF" />
+              <Click X="391" Y="384" Color="#FFD3CDC8" />
+              <Click X="406" Y="382" Color="#FFFFFFFF" />
+              <Click X="427" Y="379" Color="#FF281500" />
+              <Click X="288" Y="687" Color="#FFF5AC81" />
+              <Click X="475" Y="690" Color="#FFC4CE4D" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Ascend Yes/No" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="100" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="496" Y="692" Height="29" Width="32" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ascend every 40 minutes" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="True" IsWaitFirst="True" ExecutionLimit="0" LimitRepeats="True" WaitType="Time" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="40" Hours="0" />
+            <ClickList Points="0">
+              <Click X="39" Y="63" Color="#FFD1FEFF" />
+              <Click X="52" Y="54" Color="#FFEFFFFF" />
+              <Click X="75" Y="41" Color="#FF033073" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Initiate Ascend" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="39" Y="30" Height="40" Width="46" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ascend Confirmation" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="337" Y="54" Color="#FF25435C" />
+              <Click X="362" Y="53" Color="#FFC8FDFF" />
+              <Click X="389" Y="52" Color="#FF022B52" />
+              <Click X="413" Y="49" Color="#FF01142F" />
+              <Click X="322" Y="888" Color="#FF00D4E1" />
+              <Click X="182" Y="948" Color="#FF0092BB" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Ascend Confirmation" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="183" Y="891" Height="56" Width="134" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Ascend Rewards" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="6">
+              <Click X="254" Y="10" Color="#FF020303" />
+              <Click X="297" Y="22" Color="#FF000000" />
+              <Click X="337" Y="24" Color="#FFFFFFFF" />
+              <Click X="376" Y="24" Color="#FF000000" />
+              <Click X="415" Y="29" Color="#FF7F7F7F" />
+              <Click X="452" Y="33" Color="#FF010101" />
+              <Click X="502" Y="33" Color="#FF2D2C2C" />
+              <Click X="514" Y="31" Color="#FF090803" />
+              <Click X="329" Y="171" Color="#FFFFFFFF" />
+              <Click X="304" Y="895" Color="#FF00D9E4" />
+              <Click X="424" Y="938" Color="#FF00ABC9" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Ascend Rewards" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="314" Y="909" Height="58" Width="101" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Beat Stage 135 to ascend" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="289" Y="904" Color="#FF571702" />
+              <Click X="336" Y="907" Color="#FF591B06" />
+              <Click X="363" Y="913" Color="#FF7B3901" />
+              <Click X="387" Y="909" Color="#FF561804" />
+              <Click X="418" Y="898" Color="#FF825543" />
+              <Click X="437" Y="896" Color="#FFDAD4CF" />
+              <Click X="458" Y="893" Color="#FF8C4800" />
+              <Click X="400" Y="928" Color="#FF561703" />
+              <Click X="363" Y="939" Color="#FF875D4F" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Click Beat Stage 135 to ascend" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="662" Y="34" Height="37" Width="38" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Heroes Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="99" Y="943" Color="#FFFBE093" />
+          <Click X="97" Y="967" Color="#FFFBE397" />
+          <Click X="99" Y="1002" Color="#FFFBE094" />
+        </ClickList>
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="Level up" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" RepeatsLimit="4">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <ObjectSearch ObjectName="Level Up" Channel="Red" Threshold="87">
+              <Rectangle X="621" Y="702" Height="206" Width="112" />
+            </ObjectSearch>
+            <Events>
+              <Action Name="Click Level up" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="400" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="100" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="644" Y="791" Height="31" Width="48" />
+                <Events>
+                  <Event Name="+Max" LogicChoice="AND" UseParentPicture="False" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+                    <ObjectSearch ObjectName="+Max" Channel="Red" Threshold="70">
+                      <Rectangle X="270" Y="744" Height="180" Width="100" />
+                    </ObjectSearch>
+                    <Events>
+                      <Action Name="Click +Max" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="286" Y="798" Height="31" Width="63" />
+                        <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+                      </Action>
+                    </Events>
+                  </Event>
+                </Events>
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Game Crash Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+        <Events>
+          <Event Name="Resolution Mismatch" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="True" IsWaitFirst="True" ExecutionLimit="7" LimitRepeats="True" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="33" Y="782" Color="#FFEEEEEE" />
+              <Click X="96" Y="799" Color="#FFEEEEEE" />
+              <Click X="158" Y="847" Color="#FFEEEEEE" />
+              <Click X="181" Y="871" Color="#FFEEEEEE" />
+              <Click X="217" Y="902" Color="#FFEEEEEE" />
+              <Click X="252" Y="914" Color="#FFEEEEEE" />
+              <Click X="306" Y="938" Color="#FFEEEEEE" />
+              <Click X="370" Y="962" Color="#FFEEEEEE" />
+              <Click X="414" Y="972" Color="#FFEEEEEE" />
+              <Click X="476" Y="982" Color="#FFEEEEEE" />
+              <Click X="541" Y="955" Color="#FFEEEEEE" />
+              <Click X="559" Y="926" Color="#FFEEEEEE" />
+              <Click X="578" Y="892" Color="#FFEEEEEE" />
+              <Click X="601" Y="867" Color="#FFEEEEEE" />
+              <Click X="633" Y="847" Color="#FFEEEEEE" />
+              <Click X="692" Y="815" Color="#FFEEEEEE" />
+              <Click X="721" Y="802" Color="#FFEEEEEE" />
+              <Click X="320" Y="724" Color="#FF000000" />
+              <Click X="420" Y="729" Color="#FF000000" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+            <Events>
+              <Action Name="Recycling" UseParentPicture="True" AfterCompletionType="Recycle" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Emmulator 0 Layout" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="483" Y="344" Color="#FF7A2F76" />
+              <Click X="426" Y="374" Color="#FFB371A4" />
+              <Click X="395" Y="395" Color="#FFCCA1BC" />
+              <Click X="364" Y="415" Color="#FFD5BBC7" />
+              <Click X="359" Y="419" Color="#FFDBC4CA" />
+              <Click X="369" Y="426" Color="#FFA6A087" />
+              <Click X="374" Y="421" Color="#FFCDAE1A" />
+              <Click X="371" Y="427" Color="#FF30251D" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Emmulator 0 Layout" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="10" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="365" Y="419" Height="13" Width="12" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Emmulator 2 Layout" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="5">
+              <Click X="710" Y="402" Color="#FF080224" />
+              <Click X="689" Y="354" Color="#FF080421" />
+              <Click X="793" Y="370" Color="#FF010215" />
+            </ClickList>
+            <Picture FileName="" ResolutionWidth="1024" ResolutionHeight="768" />
+            <Events>
+              <Action Name="Click Emmulator 2 Layout" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="645" Y="297" Height="13" Width="15" />
+                <Picture ResolutionWidth="1024" ResolutionHeight="768" FileName="" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Find Floaty Speed" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <ObjectSearch ObjectName="Floaty Speed" Channel="Red" Threshold="90">
+          <Rectangle X="51" Y="121" Height="98" Width="623" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click New Event" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="25" RelativeXOffset="0" RelativeYOffset="0">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="361" Y="181" Height="26" Width="16" />
+            <Picture ResolutionWidth="766" ResolutionHeight="1021" FileName="" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="AD WAR Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+        <Events>
+          <Event Name="New Event" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="" ResolutionWidth="766" ResolutionHeight="1021" />
+          </Event>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Gold Chest" FileName="2020-05-10-14-36-46-195086359.bmp" />
+      <Object Name="Collect" FileName="2020-05-10-16-12-10-200806484.bmp" />
+      <Object Name="Thick Dark X" FileName="2020-05-10-16-23-33-201489484.bmp" />
+      <Object Name="Upgrade" FileName="2020-05-10-16-33-40-202096718.bmp" />
+      <Object Name="Present" FileName="2020-05-10-16-38-51-202407468.bmp" />
+      <Object Name="Buy" FileName="2020-05-10-16-41-58-202594859.bmp" />
+      <Object Name="Infinity" FileName="2020-05-10-16-43-14-202670921.bmp" />
+      <Object Name="Brown Chest" FileName="2020-05-10-16-45-32-202808765.bmp" />
+      <Object Name="Thick White X" FileName="2020-05-10-16-52-34-203231125.bmp" />
+      <Object Name="+10" FileName="2020-05-10-20-03-42-214698781.bmp" />
+      <Object Name="2 Sides Disabled" FileName="2020-05-11-13-06-15-276051656.bmp" />
+      <Object Name="Level Up" FileName="2020-05-11-13-22-23-277019718.bmp" />
+      <Object Name="Thick White X1" FileName="2020-05-11-20-48-17-303769546.bmp" />
+      <Object Name="Tiny White X" FileName="2020-05-12-09-01-02-347735093.bmp" />
+      <Object Name="Floaty Speed" FileName="2020-05-12-09-02-23-347815890.bmp" />
+      <Object Name="Tiny Black X" FileName="2020-05-12-09-56-37-351069437.bmp" />
+      <Object Name="+Max" FileName="2020-05-17-09-00-41-779694421.bmp" />
+      <Object Name="+100" FileName="2020-05-17-15-27-29-802902921.bmp" />
+      <Object Name="+101" FileName="2020-05-17-15-30-19-803072546.bmp" />
+      <Object Name="Thin Dark X" FileName="2020-05-30-13-30-29-109572265.bmp" />
+      <Object Name="Thin Black X" FileName="2020-06-01-01-00-18-237356484.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>
