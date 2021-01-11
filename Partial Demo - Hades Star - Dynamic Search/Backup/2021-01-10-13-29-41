@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star1" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Application" MouseMode="Passive" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="DoNothing" MoveMouseBeforeAction="False" PathToApplicationExe="" ApplicationPrimaryWindowName="" ApplicationPrimaryWindowFilter="Equals" ApplicationSecondaryWindowName="" ApplicationSecondaryWindowFilter="Equals" ApplicationParameters="">
+    <Events />
+    <Objects />
+  </App>
+</AppTestStudio>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star - Steam" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Steam" SteamID="0" SteamPrimaryWindowName="Hades' Star" SteamPrimaryWindowFilter="Equals" SteamSecondaryWindowName="" SteamSecondaryWindowFilter="Equals" IsFullScreen="False">
+    <Events>
+      <Event Name="New Event" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="2020-12-26-00-38-32-1168397609.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <Events>
+          <Action Name="Click New Event" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="50" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1839" Y="764" Height="63" Width="59" />
+            <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2020-12-26-00-39-23-1168448500.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects />
+  </App>
+</AppTestStudio>

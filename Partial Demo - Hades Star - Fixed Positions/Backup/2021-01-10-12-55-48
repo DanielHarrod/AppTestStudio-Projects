@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star - Steam" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="4000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Steam" MouseMode="Active" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="ActivateWindow" MoveMouseBeforeAction="False" SteamID="0" SteamPrimaryWindowName="Hades" SteamPrimaryWindowFilter="Contains" SteamSecondaryWindowName="" SteamSecondaryWindowFilter="Equals">
+    <Events>
+      <Event Name="New Event" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="2021-01-10-12-53-02-186663703.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <ObjectSearch ObjectName="Transport" Channel="Red" Threshold="70">
+          <Rectangle X="0" Y="0" Height="2182" Width="3862" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click New Event" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1822" Y="959" Height="18" Width="21" />
+            <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-12-53-12-186673140.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Transport" FileName="2021-01-10-12-54-17-186738359.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>

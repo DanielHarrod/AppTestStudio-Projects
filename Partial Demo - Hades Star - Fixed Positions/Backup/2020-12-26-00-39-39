@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star - Steam" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Steam" SteamID="0" SteamPrimaryWindowName="" SteamPrimaryWindowFilter="Equals" SteamSecondaryWindowName="" SteamSecondaryWindowFilter="Equals" IsFullScreen="False">
+    <Events />
+    <Objects />
+  </App>
+</AppTestStudio>

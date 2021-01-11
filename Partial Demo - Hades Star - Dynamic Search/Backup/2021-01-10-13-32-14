@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star1" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Application" MouseMode="Active" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="ActivateWindow" MoveMouseBeforeAction="False" PathToApplicationExe="" ApplicationPrimaryWindowName="Hades" ApplicationPrimaryWindowFilter="Contains" ApplicationSecondaryWindowName="" ApplicationSecondaryWindowFilter="Equals" ApplicationParameters="">
+    <Events>
+      <Event Name="Find Single Ship" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="2021-01-10-13-29-32-188853656.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <ObjectSearch ObjectName="Single Ship" Channel="Red" Threshold="70">
+          <Rectangle X="0" Y="0" Height="2182" Width="3862" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Find Single Ship" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1867" Y="1143" Height="16" Width="19" />
+            <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-29-38-188859078.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Double Ship" FileName="2021-01-10-13-28-07-188768031.bmp" />
+      <Object Name="Single Ship" FileName="2021-01-10-13-29-12-188833671.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>

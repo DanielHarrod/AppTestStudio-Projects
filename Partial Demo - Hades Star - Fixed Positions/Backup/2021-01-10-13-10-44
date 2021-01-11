@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star - Steam" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="4000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Steam" MouseMode="Active" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="ActivateWindow" MoveMouseBeforeAction="False" SteamID="0" SteamPrimaryWindowName="Hades" SteamPrimaryWindowFilter="Contains" SteamSecondaryWindowName="" SteamSecondaryWindowFilter="Equals">
+    <Events>
+      <Event Name="Shipments Menu with Shipment on Transport Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="466" Y="482" Color="#FF30393D" />
+          <Click X="501" Y="488" Color="#FF1F292D" />
+          <Click X="527" Y="489" Color="#FF1F292D" />
+          <Click X="544" Y="492" Color="#FF1F292D" />
+          <Click X="552" Y="494" Color="#FF8C9193" />
+          <Click X="569" Y="497" Color="#FFFEFEFE" />
+          <Click X="584" Y="497" Color="#FF1F292D" />
+          <Click X="638" Y="484" Color="#FF2D363A" />
+          <Click X="655" Y="477" Color="#FF4A5255" />
+          <Click X="241" Y="1433" Color="#FF101517" />
+          <Click X="252" Y="1447" Color="#FF1B2325" />
+          <Click X="267" Y="1465" Color="#FF1B2325" />
+          <Click X="262" Y="1455" Color="#FF6A97A7" />
+          <Click X="264" Y="1455" Color="#FF9EE4FE" />
+        </ClickList>
+        <Picture FileName="2021-01-10-13-02-09-187210359.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <Events>
+          <Event Name="Kita" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="530" Y="1450" Color="#FFFFFFFF" />
+              <Click X="533" Y="1450" Color="#FF101415" />
+              <Click X="540" Y="1450" Color="#FFB6B7B7" />
+              <Click X="544" Y="1451" Color="#FF101415" />
+              <Click X="547" Y="1452" Color="#FFFFFFFF" />
+              <Click X="551" Y="1453" Color="#FF101415" />
+              <Click X="556" Y="1453" Color="#FFE9EAEA" />
+              <Click X="558" Y="1453" Color="#FF888A8A" />
+            </ClickList>
+            <Picture FileName="2021-01-10-13-02-38-187239734.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+            <Events>
+              <Action Name="Click Move" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="1826" Y="2057" Height="41" Width="58" />
+                <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-07-12-187513187.bmp" />
+              </Action>
+              <Action Name="Click Kita" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="1904" Y="957" Height="25" Width="23" />
+                <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-06-36-187477156.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Shipments Menu with Nothing Loaded" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="472" Y="495" Color="#FF1F292D" />
+          <Click X="493" Y="495" Color="#FFFBFCFC" />
+          <Click X="503" Y="495" Color="#FFA7ABAD" />
+          <Click X="524" Y="496" Color="#FFFFFFFF" />
+          <Click X="541" Y="497" Color="#FFF0F1F1" />
+          <Click X="557" Y="497" Color="#FF1F292D" />
+          <Click X="569" Y="497" Color="#FFFEFEFE" />
+          <Click X="574" Y="497" Color="#FF1F292D" />
+          <Click X="238" Y="1432" Color="#FF101517" />
+          <Click X="253" Y="1447" Color="#FF101517" />
+          <Click X="274" Y="1459" Color="#FF101517" />
+          <Click X="301" Y="1474" Color="#FF101517" />
+        </ClickList>
+        <Picture FileName="2021-01-10-12-59-18-187039062.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <Events>
+          <Event Name="Shipments with Shipments Available" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="244" Y="721" Color="#FF232C2F" />
+              <Click X="249" Y="722" Color="#FF1B2324" />
+              <Click X="255" Y="736" Color="#FF1B2223" />
+              <Click X="259" Y="743" Color="#FF1B2223" />
+            </ClickList>
+            <Picture FileName="2021-01-10-12-59-52-187073437.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+            <Events>
+              <Action Name="Click First Shpiment Available" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="240" Y="721" Height="32" Width="33" />
+                <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-00-03-187084578.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Transport Menu" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1542" Y="1890" Color="#FF243139" />
+          <Click X="1554" Y="1889" Color="#FF243139" />
+          <Click X="1563" Y="1888" Color="#FF4C575D" />
+          <Click X="1579" Y="1887" Color="#FF243139" />
+          <Click X="1590" Y="1887" Color="#FFFEFEFE" />
+          <Click X="1594" Y="1886" Color="#FF243139" />
+        </ClickList>
+        <Picture FileName="2021-01-10-12-55-21-186802203.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <Events>
+          <Event Name="Transport Details" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2155" Y="2056" Color="#FF2C3B44" />
+              <Click X="2163" Y="2067" Color="#FF232E36" />
+              <Click X="2168" Y="2073" Color="#FF232E36" />
+              <Click X="2178" Y="2085" Color="#FF212B33" />
+            </ClickList>
+            <Picture FileName="2021-01-10-12-55-38-186819968.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+            <Events>
+              <Action Name="Click Transport Details" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="2125" Y="2049" Height="46" Width="77" />
+                <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-12-55-43-186824656.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Find Transport" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="2021-01-10-12-54-47-186768468.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <ObjectSearch ObjectName="Transport" Channel="Red" Threshold="70">
+          <Rectangle X="0" Y="0" Height="2182" Width="3862" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Transport" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1822" Y="959" Height="18" Width="21" />
+            <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-12-54-53-186774921.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Transport" FileName="2021-01-10-12-54-17-186738359.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>

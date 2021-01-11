@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppTestStudio>
+  <App Name="Hades Star1" TargetGameBuild="" PackageName="" LaunchInstance="0" LoopDelay="1000" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="0" DPI="192" Platform="Application" MouseMode="Active" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="ActivateWindow" MoveMouseBeforeAction="False" PathToApplicationExe="" ApplicationPrimaryWindowName="Hades" ApplicationPrimaryWindowFilter="Contains" ApplicationSecondaryWindowName="" ApplicationSecondaryWindowFilter="Equals" ApplicationParameters="">
+    <Events>
+      <Event Name="Transport Bottom Menu" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1653" Y="1979" Color="#FF243139" />
+          <Click X="1667" Y="1974" Color="#FF303C44" />
+          <Click X="1681" Y="1974" Color="#FF243139" />
+          <Click X="1686" Y="1974" Color="#FF243139" />
+          <Click X="1709" Y="1967" Color="#FF243139" />
+          <Click X="1710" Y="1967" Color="#FF243139" />
+          <Click X="1721" Y="1962" Color="#FF243139" />
+          <Click X="1725" Y="1962" Color="#FF243139" />
+        </ClickList>
+        <Picture FileName="2021-01-10-13-32-57-189058781.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <Events>
+          <Event Name="Shipments List Available" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2085" Y="2085" Color="#FF232E36" />
+              <Click X="2090" Y="2086" Color="#FF202B32" />
+              <Click X="2096" Y="2092" Color="#FF202B32" />
+              <Click X="2097" Y="2096" Color="#FF9CE1F9" />
+              <Click X="2104" Y="2103" Color="#FF9FE6FF" />
+              <Click X="2105" Y="2105" Color="#FF232E36" />
+            </ClickList>
+            <Picture FileName="2021-01-10-13-32-04-189005515.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+            <Events>
+              <Action Name="Click Shipments List Available" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="2084" Y="2071" Height="48" Width="29" />
+                <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-32-10-189011546.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Find Single Ship" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0" />
+        <Picture FileName="2021-01-10-13-29-32-188853656.bmp" ResolutionWidth="3862" ResolutionHeight="2182" />
+        <ObjectSearch ObjectName="Single Ship" Channel="Red" Threshold="70">
+          <Rectangle X="0" Y="0" Height="2182" Width="3862" />
+        </ObjectSearch>
+        <Events>
+          <Action Name="Click Find Single Ship" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="0" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1867" Y="1143" Height="16" Width="19" />
+            <Picture ResolutionWidth="3862" ResolutionHeight="2182" FileName="2021-01-10-13-29-38-188859078.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Double Ship" FileName="2021-01-10-13-28-07-188768031.bmp" />
+      <Object Name="Single Ship" FileName="2021-01-10-13-29-12-188833671.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>
