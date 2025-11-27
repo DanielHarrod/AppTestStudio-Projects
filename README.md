@@ -34,9 +34,9 @@ Windows optimizes graphics by not updating minimized applications. This can inte
 
 **Recommendations:**
 - Keep the target application visible but move it off-screen (e.g., drag to the side or bottom).  
-- Avoid minimizing the target application.  
+- Avoid minimizing the target application, minimized appliations do not have graphics rendered resulting in a black screen.  
 - Screen savers are acceptable, but note: some applications only update when active.  
-- AppTestStudio itself can run minimized without issues — automation runs in a separate thread.
+- AppTestStudio itself can run minimized without issues — automation runs in a separate uninterruped thread.
 
 ---
 
