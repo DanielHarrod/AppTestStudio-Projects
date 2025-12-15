@@ -8,7 +8,7 @@ Download into your "Documents\App Test Studio" a folder
 
 Start->Run: %USERPROFILE%\\Documents\\App Test Studio
 
-C:\Users\(Current User)\Documents\App Test Studio\SodaDungeon2 Warrior Dimension 2560x1440\
+C:\Users\\(Current User)\Documents\App Test Studio\SodaDungeon2 Warrior Dimension 2560x1440\
 
 ## System Setup
 
