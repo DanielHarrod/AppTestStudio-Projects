@@ -1,5 +1,6 @@
-# AppTestStudio Projects
-## Soda Dungeon 2 - Warrior Dimension - Fully Automated Gameplay
+# Soda Dungeon 2 - Warrior Dimension - Fully Automated Gameplay
+
+## Game: Soda Dungeon 2
 
 Projects created with [AppTestStudio](https://github.com/DanielHarrod/AppTestStudio).  
 
@@ -25,7 +26,7 @@ Have made it to the Warrior Dimension and have 1 loadout slot enabled.
 - Loads a party from loadout.
 - Goes into the dungeon.
 - Clicks on Warp or Healing Fairy.
-- When the party is defeated it starts a new party and continues.
+- When the party is defeated it starts a new party and continues where you left off.
 
 
 ## Fair Use Statement
