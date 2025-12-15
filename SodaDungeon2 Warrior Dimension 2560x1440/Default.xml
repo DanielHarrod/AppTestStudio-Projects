@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<AppTestStudio>
+  <App Name="SodaDungeon2 Warrior Dimension 2560x1440" PackageName="" LaunchInstance="0" LoopDelay="500" Resolution="1024x768" SaveVideo="False" VideoFrameLimit="2000" DefaultClickSpeed="20" DPI="192" Platform="Application" MouseMode="Active" MouseSpeedPixelsPerSecond="6000" MouseSpeedVelocityVariantPercentMax="10" MouseSpeedVelocityVariantPercentMin="-10" WindowAction="ActivateWindow" MoveMouseBeforeAction="False" NeverQuitIfWindowNotFound="False" DontTakeScreenshot="False" PathToApplicationExe="" ApplicationPrimaryWindowName="SodaDungeon2" ApplicationPrimaryWindowFilter="Equals" ApplicationSecondaryWindowName="" ApplicationSecondaryWindowFilter="Equals" ApplicationParameters="">
+    <Events>
+      <Event Name="Choose a Path" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="5">
+          <Click X="784" Y="1175" Color="#FF2C5699" />
+          <Click X="871" Y="1180" Color="#FF2C5699" />
+          <Click X="950" Y="1184" Color="#FF000000" />
+          <Click X="1038" Y="1191" Color="#FF282828" />
+          <Click X="1135" Y="1196" Color="#FF272727" />
+          <Click X="1226" Y="1200" Color="#FF151515" />
+          <Click X="1303" Y="1199" Color="#FF2C5699" />
+          <Click X="1361" Y="1197" Color="#FFFFFFFF" />
+          <Click X="1406" Y="1182" Color="#FF020508" />
+        </ClickList>
+        <Picture FileName="2025-11-13-21-29-51-42410218.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Event Name="Selectable Choose a path Group" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="2025-11-18-10-19-24-434194265.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Event Name="Find Healing Fairy" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="2025-11-17-21-21-43-387533375.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <ObjectSearch ObjectName="Healing Fairy" Channel="Red" Threshold="70">
+                  <Rectangle X="192" Y="941" Height="128" Width="2292" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Healing Fairy" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="30" RelativeXOffset="0" RelativeYOffset="-398" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="True">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="2024" Y="975" Height="70" Width="87" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-17-21-22-20-387569546.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Mineshaft Enabled?" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="2025-11-17-18-54-09-378676921.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <ObjectSearch ObjectName="Mineshaft" Channel="Red" Threshold="70">
+                  <Rectangle X="11" Y="950" Height="114" Width="2512" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Mineshaft" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="30" RelativeXOffset="0" RelativeYOffset="-401" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="1871" Y="992" Height="49" Width="363" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-17-18-54-49-378717093.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Bonus Treasure Enabled?" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="2025-11-17-18-46-40-378227812.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <ObjectSearch ObjectName="Bonus Treasure" Channel="Red" Threshold="70">
+                  <Rectangle X="26" Y="965" Height="86" Width="2493" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Bonus Treasure" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="30" RelativeXOffset="0" RelativeYOffset="-419" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="980" Y="997" Height="49" Width="593" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-17-18-46-04-378192000.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+              <Event Name="Warp Enabled?" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="False" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="2025-11-17-19-04-25-379292328.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <ObjectSearch ObjectName="Warp" Channel="Red" Threshold="70">
+                  <Rectangle X="284" Y="963" Height="99" Width="2053" />
+                </ObjectSearch>
+                <Events>
+                  <Action Name="Click Warp" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="30" RelativeXOffset="0" RelativeYOffset="-384" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="True">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="1224" Y="998" Height="31" Width="67" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-17-19-05-00-379327656.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Start Screen" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1109" Y="1275" Color="#FFEFD700" />
+          <Click X="952" Y="1207" Color="#FF470952" />
+          <Click X="784" Y="1318" Color="#FF984D00" />
+          <Click X="705" Y="1385" Color="#FFEEC300" />
+        </ClickList>
+        <Picture FileName="2025-11-13-20-55-27-40346296.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Start Screen" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="False" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1126" Y="745" Height="209" Width="263" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-13-20-55-46-40365609.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Dimension" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="750" Y="272" Color="#FF04B5FF" />
+          <Click X="756" Y="274" Color="#FFA8E5FF" />
+          <Click X="768" Y="275" Color="#FF003CB6" />
+          <Click X="752" Y="774" Color="#FFA8E5FF" />
+          <Click X="801" Y="627" Color="#FF2C5699" />
+        </ClickList>
+        <Picture FileName="2025-11-13-20-57-04-40443718.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Dimension" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="False" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="873" Y="334" Height="400" Width="836" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-13-20-57-27-40466390.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Loot Time" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="318" Y="1198" Color="#FFFFE425" />
+          <Click X="328" Y="1152" Color="#FF141B4A" />
+          <Click X="967" Y="167" Color="#FF000000" />
+          <Click X="977" Y="164" Color="#FFFFFFFF" />
+          <Click X="1012" Y="239" Color="#FFFFE425" />
+          <Click X="949" Y="255" Color="#FF6569BD" />
+          <Click X="879" Y="267" Color="#FF141B4A" />
+        </ClickList>
+        <Picture FileName="2025-11-13-21-03-15-40814437.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Exit" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1188" Y="1285" Height="39" Width="234" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-13-21-03-44-40843000.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Warp Go Screen" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1210" Y="652" Color="#FF80828B" />
+          <Click X="1174" Y="704" Color="#FF80828B" />
+          <Click X="1129" Y="748" Color="#FF000000" />
+          <Click X="1075" Y="797" Color="#FF886700" />
+          <Click X="1028" Y="840" Color="#FF003C80" />
+          <Click X="993" Y="875" Color="#FFDEA802" />
+        </ClickList>
+        <Picture FileName="2025-11-13-21-24-55-42114031.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Event Name="Warp Screen Options" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="2025-11-20-07-31-24-596918859.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Event Name="Which Restart method to use, enable the one you want." LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0" />
+                <Picture FileName="2025-11-16-17-19-33-286599078.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <Events>
+                  <Event Name="Use Default" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="2025-11-27-17-11-55-1236567328.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                    <Events>
+                      <Action Name="Click Go Button" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="1125" Y="700" Height="81" Width="98" />
+                        <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-17-21-36-286722500.bmp" />
+                      </Action>
+                    </Events>
+                  </Event>
+                  <Event Name="Down 2 " IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="" Repeats="True" RepeatsLimit="1">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="2025-11-16-17-20-54-286680265.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                    <Events>
+                      <Action Name="Click Red Down Level Arrow" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="157" Y="472" Height="43" Width="35" />
+                        <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-17-20-37-286663140.bmp" />
+                      </Action>
+                    </Events>
+                  </Event>
+                  <Event Name="Start at beginning" IsEnabled="False" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="" Repeats="True" RepeatsLimit="1">
+                    <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <ClickList Points="0" />
+                    <Picture FileName="2025-11-16-17-20-54-286680265.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                    <Events>
+                      <Action Name="Click Green Up" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                        <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                        <Rectangle X="723" Y="498" Height="28" Width="24" />
+                        <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-25-21-20-27-1078676250.bmp" />
+                      </Action>
+                    </Events>
+                  </Event>
+                  <Action Name="Click Go Button" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="1125" Y="700" Height="81" Width="98" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-17-21-36-286722500.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Ok Button" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1200" Y="874" Color="#FF2C5699" />
+          <Click X="1216" Y="881" Color="#FF2C5699" />
+          <Click X="1240" Y="889" Color="#FFFFFFFF" />
+          <Click X="1255" Y="892" Color="#FF101E36" />
+          <Click X="1272" Y="899" Color="#FFFFFFFF" />
+          <Click X="1290" Y="904" Color="#FF000000" />
+          <Click X="1313" Y="908" Color="#FFFFFFFF" />
+          <Click X="1327" Y="916" Color="#FF000000" />
+          <Click X="1348" Y="924" Color="#FF2C5699" />
+        </ClickList>
+        <Picture FileName="2025-11-14-08-53-48-83447203.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Ok Button" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1207" Y="875" Height="72" Width="143" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-08-54-00-83459250.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Green Arrow" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="2140" Y="568" Color="#FF429B1B" />
+          <Click X="2124" Y="587" Color="#FF28650B" />
+          <Click X="2115" Y="568" Color="#FF419A1A" />
+          <Click X="2130" Y="555" Color="#FF298400" />
+        </ClickList>
+        <Picture FileName="2025-11-14-10-06-43-87822109.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Green Arrow" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2112" Y="564" Height="39" Width="42" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-10-06-53-87832796.bmp" />
+          </Action>
+          <Action Name="Move Green Arrow" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="25" Y="16" Height="17" Width="12" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-10-07-42-87881531.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="In the Bar" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="390" Y="170" Color="#FF1260A8" />
+          <Click X="434" Y="92" Color="#FF0C4073" />
+          <Click X="2293" Y="1284" Color="#FF000000" />
+          <Click X="2383" Y="1290" Color="#FF1F356D" />
+          <Click X="2348" Y="1336" Color="#FFFFFFFF" />
+        </ClickList>
+        <Picture FileName="2025-11-14-10-17-21-88460703.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Event Name="Player Selection" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0" />
+            <Picture FileName="2025-11-14-10-25-07-88926453.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Event Name="We don't have enough Players" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+                <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <ClickList Points="0">
+                  <Click X="2082" Y="1361" Color="#FF0C3714" />
+                </ClickList>
+                <Picture FileName="2025-11-14-10-18-32-88531281.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+                <Events>
+                  <Action Name="Click We don't have enough Players" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="2287" Y="469" Height="52" Width="91" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-22-56-52-738851843.bmp" />
+                  </Action>
+                  <Action Name="Hire Party" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="984" Y="1155" Height="49" Width="157" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-22-57-37-738897140.bmp" />
+                  </Action>
+                  <Action Name="Click OK" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="1221" Y="872" Height="60" Width="153" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-22-58-07-738926265.bmp" />
+                  </Action>
+                  <Action Name="Click Close" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="2341" Y="1319" Height="21" Width="23" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-22-58-25-738944890.bmp" />
+                  </Action>
+                  <Action Name="Move We don't have enough Players" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                    <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+                    <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                    <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                    <Rectangle X="46" Y="46" Height="11" Width="7" />
+                    <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-23-06-08-739407578.bmp" />
+                  </Action>
+                </Events>
+              </Event>
+            </Events>
+          </Event>
+          <Event Name="We are full of players" LogicChoice="CUSTOM" CustomLogic="NOT 1" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2082" Y="1361" Color="#FF0C3714" />
+            </ClickList>
+            <Picture FileName="2025-11-14-10-18-32-88531281.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Click We are full of players" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <Delay MilliSeconds="200" Seconds="0" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="2308" Y="1295" Height="73" Width="72" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-16-05-19-109337906.bmp" />
+              </Action>
+              <Action Name="Move Top Left" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="62" Y="40" Height="5" Width="7" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-16-18-29-110128187.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="In the Outside" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="423" Y="192" Color="#FF0C4073" />
+          <Click X="450" Y="98" Color="#FF0C4073" />
+          <Click X="2323" Y="1342" Color="#FF9097A8" />
+          <Click X="2346" Y="1310" Color="#FF9097A8" />
+        </ClickList>
+        <Picture FileName="2025-11-14-10-19-46-88605343.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Event Name="Not in Home position Warrior Dimension" LogicChoice="CUSTOM" CustomLogic="NOT(1 OR 2 OR 3)" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="168" Y="526" Color="#FF00672F" />
+              <Click X="117" Y="567" Color="#FF002C15" />
+              <Click X="78" Y="623" Color="#FF002C15" />
+            </ClickList>
+            <Picture FileName="2025-11-28-08-36-44-1292058156.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Move Not at home position (far left)" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="23" Y="779" Height="7" Width="7" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-10-20-33-261458828.bmp" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Not at home position (far left) V1" IsEnabled="False" LogicChoice="CUSTOM" CustomLogic="NOT (1 OR 2 OR 3 )" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="638" Y="477" Color="#FF760031" />
+              <Click X="626" Y="494" Color="#FF000000" />
+              <Click X="665" Y="494" Color="#FFE65A94" />
+            </ClickList>
+            <Picture FileName="2025-11-20-07-16-01-595996281.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Move Not at home position (far left)" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="23" Y="779" Height="7" Width="7" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-10-20-33-261458828.bmp" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="No Players selected? Dimension 10" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2085" Y="1361" Color="#FF061609" />
+            </ClickList>
+            <Picture FileName="2025-11-20-07-13-05-595820171.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Click No Players selected?" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="537" Y="729" Height="120" Width="159" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-10-20-21-88640531.bmp" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="No Players selected? Dimension &lt; 10" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2085" Y="1361" Color="#FF0E3816" />
+            </ClickList>
+            <Picture FileName="2025-11-14-10-20-04-88623640.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Click No Players selected?" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="537" Y="729" Height="120" Width="159" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-10-20-21-88640531.bmp" />
+              </Action>
+            </Events>
+          </Event>
+          <Event Name="Players Full" LogicChoice="CUSTOM" CustomLogic="NOT 1" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+            <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <ClickList Points="0">
+              <Click X="2085" Y="1361" Color="#FF0E3816" />
+            </ClickList>
+            <Picture FileName="2025-11-14-10-20-04-88623640.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+            <Events>
+              <Action Name="Click Players Full" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+                <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+                <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+                <Rectangle X="1583" Y="216" Height="165" Width="238" />
+                <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-14-16-06-26-109405734.bmp" />
+              </Action>
+            </Events>
+          </Event>
+        </Events>
+      </Event>
+      <Event Name="Reorder Screen" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="2337" Y="1286" Color="#FFAF0400" />
+          <Click X="188" Y="1328" Color="#FFFFFFFF" />
+          <Click X="188" Y="1355" Color="#FF424698" />
+          <Click X="354" Y="1320" Color="#FFFFA800" />
+          <Click X="400" Y="1320" Color="#FF00D9FF" />
+          <Click X="519" Y="1322" Color="#FFFFD800" />
+        </ClickList>
+        <Picture FileName="2025-11-15-15-57-58-195300656.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Reorder Screen" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2310" Y="1290" Height="77" Width="77" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-15-15-58-27-195329906.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Recycle Icon is visible" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="353" Y="1302" Color="#FFFFA800" />
+          <Click X="399" Y="1334" Color="#FF000000" />
+          <Click X="366" Y="1352" Color="#FF0322A7" />
+          <Click X="384" Y="1295" Color="#FFF00000" />
+          <Click X="405" Y="1303" Color="#FF990000" />
+          <Click X="181" Y="1326" Color="#FF424698" />
+          <Click X="516" Y="1319" Color="#FFFFD800" />
+        </ClickList>
+        <Picture FileName="2025-11-16-07-15-28-250353828.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Recycle Icon is visible" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2289" Y="1306" Height="62" Width="95" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-07-15-49-250375250.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Warning" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="752" Y="253" Color="#FF2C2C2C" />
+          <Click X="1141" Y="256" Color="#FF06000A" />
+          <Click X="1532" Y="260" Color="#FF0A0100" />
+          <Click X="1785" Y="260" Color="#FF0D0400" />
+          <Click X="1885" Y="233" Color="#FF000000" />
+          <Click X="1925" Y="220" Color="#FF09111E" />
+          <Click X="1367" Y="886" Color="#FF2C5699" />
+          <Click X="1180" Y="904" Color="#FF2C5699" />
+          <Click X="1252" Y="901" Color="#FF2C5699" />
+        </ClickList>
+        <Picture FileName="2025-11-16-10-10-21-260846781.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Warning" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="1199" Y="860" Height="66" Width="149" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-10-10-37-260862781.bmp" />
+          </Action>
+          <Action Name="Click Close Special Character Screen" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2329" Y="1300" Height="53" Width="42" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-16-10-10-54-260879609.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Choose Treasure Continue" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="0">
+          <Click X="1922" Y="1135" Color="#FF2C5699" />
+          <Click X="1971" Y="1134" Color="#FF2C5699" />
+          <Click X="2028" Y="1133" Color="#FFFFFFFF" />
+          <Click X="2073" Y="1133" Color="#FFFFFFFF" />
+          <Click X="2127" Y="1133" Color="#FFFFFFFF" />
+          <Click X="2195" Y="1128" Color="#FFD3D3D3" />
+          <Click X="2246" Y="1127" Color="#FFFFFFFF" />
+          <Click X="2286" Y="1122" Color="#FF2C5699" />
+        </ClickList>
+        <Picture FileName="2025-11-20-15-57-41-627295859.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Click Choose Treasure Continue" UseParentPicture="True" AfterCompletionType="Home" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2011" Y="1095" Height="55" Width="167" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-20-15-58-00-627315046.bmp" />
+          </Action>
+        </Events>
+      </Event>
+      <Event Name="Is Auto Off?" LogicChoice="AND" UseParentPicture="True" AfterCompletionType="Continue" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" WaitType="Iteration" IsColorPoint="True" GotoNode="">
+        <Delay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+        <ClickList Points="7">
+          <Click X="2145" Y="1312" Color="#FF000000" />
+          <Click X="2160" Y="1322" Color="#FF2C5699" />
+          <Click X="2177" Y="1335" Color="#FF6D6D6D" />
+          <Click X="2196" Y="1315" Color="#FF2C5699" />
+        </ClickList>
+        <Picture FileName="2025-11-21-23-00-00-739039921.bmp" ResolutionWidth="2560" ResolutionHeight="1440" />
+        <Events>
+          <Action Name="Turn Auto On" UseParentPicture="True" AfterCompletionType="Continue" Mode="RangeClick" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="2152" Y="1316" Height="25" Width="34" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-23-00-09-739048718.bmp" />
+          </Action>
+          <Action Name="Move Mouse out of the way" UseParentPicture="True" AfterCompletionType="Home" Mode="MouseMove" ClickSpeed="20" RelativeXOffset="0" RelativeYOffset="0" IsLimited="False" IsWaitFirst="False" ExecutionLimit="0" LimitRepeats="False" KeyboardTimeoutToActivateMS="2000" AppActivateIfNotActive="True" KeyboardAfterSendingActivationMS="50" PreActionFailureAction="Continue" WaitType="Iteration" FromCurrentMousePos="False">
+            <MouseMove Mode="None" Velocity="500" StartHeight="25" StartWidth="25" EndHeight="25" EndWidth="25" />
+            <Delay MilliSeconds="0" Seconds="1" Minutes="0" Hours="0" />
+            <LimitDelay MilliSeconds="0" Seconds="0" Minutes="0" Hours="0" />
+            <Rectangle X="33" Y="36" Height="7" Width="9" />
+            <Picture ResolutionWidth="2560" ResolutionHeight="1440" FileName="2025-11-21-23-00-17-739056281.bmp" />
+          </Action>
+        </Events>
+      </Event>
+    </Events>
+    <Objects>
+      <Object Name="Bonus Treasure" FileName="2025-11-17-18-46-04-378191890.bmp" />
+      <Object Name="Mineshaft" FileName="2025-11-17-18-54-49-378716984.bmp" />
+      <Object Name="Warp" FileName="2025-11-17-19-05-00-379327484.bmp" />
+      <Object Name="Healing Fairy" FileName="2025-11-17-21-22-19-387569406.bmp" />
+    </Objects>
+  </App>
+</AppTestStudio>
